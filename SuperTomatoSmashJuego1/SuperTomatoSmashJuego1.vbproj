@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39AE6220-4829-4F7D-A4F0-875F7AD576DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SuperTomatoSmashJuego1.My.MyApplication</StartupObject>
+    <RootNamespace>SuperTomatoSmashJuego1</RootNamespace>
+    <AssemblyName>SuperTomatoSmashJuego1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Axel Giménez\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SuperTomatoSmashJuego1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SuperTomatoSmashJuego1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icono.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>B32F732B0438FB17652BDA5B8B98A9B8C77816ED</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SuperTomatoSmashJuego1_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Info\Info1.Designer.vb">
+      <DependentUpon>Info1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Info\Info1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info\info9.Designer.vb">
+      <DependentUpon>info9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Info\info9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info\info8.Designer.vb">
+      <DependentUpon>info8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Info\info8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info\info7.Designer.vb">
+      <DependentUpon>info7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Info\info7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info\Info10.Designer.vb">
+      <DependentUpon>Info10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Info\Info10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info\Info2.Designer.vb">
+      <DependentUpon>Info2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Info\Info2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info\Info6.Designer.vb">
+      <DependentUpon>Info6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Info\Info6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info\Info5.Designer.vb">
+      <DependentUpon>Info5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Info\Info5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info\Info4.Designer.vb">
+      <DependentUpon>Info4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Info\Info4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info\Info3.Designer.vb">
+      <DependentUpon>Info3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Info\Info3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOpciones.Designer.vb">
+      <DependentUpon>FormOpciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormOpciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJugar.Designer.vb">
+      <DependentUpon>FormJugar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormJugar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInicio.Designer.vb">
+      <DependentUpon>FormInicio.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleVariables.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Info\Info1.resx">
+      <DependentUpon>Info1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info\Info10.resx">
+      <DependentUpon>Info10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info\info9.resx">
+      <DependentUpon>info9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info\info8.resx">
+      <DependentUpon>info8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info\info7.resx">
+      <DependentUpon>info7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info\Info2.resx">
+      <DependentUpon>Info2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info\Info6.resx">
+      <DependentUpon>Info6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info\Info5.resx">
+      <DependentUpon>Info5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info\Info4.resx">
+      <DependentUpon>Info4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info\Info3.resx">
+      <DependentUpon>Info3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOpciones.resx">
+      <DependentUpon>FormOpciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormJugar.resx">
+      <DependentUpon>FormJugar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInicio.resx">
+      <DependentUpon>FormInicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Resources\Drip_2.x-wav" />
+    <None Include="SuperTomatoSmashJuego1_ClaveTemporal.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Volver2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Volver1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Objetivo2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MusicJuego.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MusicInicio.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LaserSound.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor4.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor3.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor2.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor1.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Small Tomato.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomonster.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomato Mech Design.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Big Boy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Objetivo1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomatocopter.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taco.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tick1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Left1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tick11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LaserSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomate1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomate2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomate3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomate4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomate5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomate6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomate7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomate8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomate9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomate10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icono.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
