@@ -25,7 +25,6 @@ Partial Class Info1
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Info1))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -45,17 +44,6 @@ Partial Class Info1
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
-        '
-        'Button1
-        '
-        Me.Button1.Enabled = False
-        Me.Button1.Location = New System.Drawing.Point(244, 230)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(72, 30)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Volver"
-        Me.ToolTip1.SetToolTip(Me.Button1, "Mostrar información anterior")
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'Button3
         '
@@ -108,7 +96,7 @@ Partial Class Info1
         Me.TextBox2.Size = New System.Drawing.Size(228, 32)
         Me.TextBox2.TabIndex = 5
         Me.TextBox2.TabStop = False
-        Me.TextBox2.Text = "Tip: Puedes volver al menú principal haciendo clic sobre la cruz roja"
+        Me.TextBox2.Text = "Tip: Puedes volver al menú principal haciendo clic sobre la cruz"
         '
         'ToolTip1
         '
@@ -129,7 +117,6 @@ Partial Class Info1
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -137,6 +124,7 @@ Partial Class Info1
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Info1"
+        Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Información sobre el tomate"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -145,7 +133,6 @@ Partial Class Info1
 
     End Sub
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Button1 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Button2 As Button

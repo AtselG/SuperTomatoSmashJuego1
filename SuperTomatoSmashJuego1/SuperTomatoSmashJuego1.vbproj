@@ -118,6 +118,12 @@
     <Compile Include="Info\Info1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Info\infoGanar.Designer.vb">
+      <DependentUpon>infoGanar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Info\infoGanar.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Info\info9.Designer.vb">
       <DependentUpon>info9.vb</DependentUpon>
     </Compile>
@@ -215,6 +221,9 @@
     <EmbeddedResource Include="Info\Info10.resx">
       <DependentUpon>Info10.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Info\infoGanar.resx">
+      <DependentUpon>infoGanar.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Info\info9.resx">
       <DependentUpon>info9.vb</DependentUpon>
     </EmbeddedResource>
@@ -267,7 +276,6 @@
     </None>
     <None Include="App.config" />
     <None Include="Resources\Drip_2.x-wav" />
-    <None Include="SuperTomatoSmashJuego1_ClaveTemporal.pfx" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
@@ -430,6 +438,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icono.ico" />
+    <None Include="Resources\top-view-of-whole-and-cut-tomatoes-on-blue-background-with-copy-space-free-photo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

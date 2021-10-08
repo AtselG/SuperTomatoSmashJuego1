@@ -1,5 +1,13 @@
 ﻿Public Class Info9
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Info8.Show()
+        Hide()
+    End Sub
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Hide()
+        Info10.ShowDialog(owner:=FormJugar)
+    End Sub
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         FormJugar.PictureBoxObjetivo1.Show()
         FormJugar.PictureBoxObjetivo2.Show()
         FormJugar.PictureBoxObjetivo3.Show()
@@ -15,14 +23,7 @@
         ContCont = 0
         Close()
     End Sub
-
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        FormInicio.Show()
-        FormJugar.Close()
-        Close()
-    End Sub
-
     Private Sub Info2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Me.Icon = (My.Resources.Icono)
     End Sub
 End Class

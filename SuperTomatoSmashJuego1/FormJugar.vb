@@ -4,7 +4,6 @@
         LabelContador.Text = " 0/10 "
         'Me.Cursor = New Cursor(ModuleVariables.CursorOpciones.Handle)
         PictureBox2.Hide()
-        TopMost = True
     End Sub
 
     Private Sub TimerObjetivo1_Tick(sender As Object, e As EventArgs) Handles TimerObjetivo1.Tick
@@ -214,9 +213,8 @@
         If Result = DialogResult.Yes Then
             FormInicio.Show()
             Close()
-        ElseIf Result = DialogResult.No
+        ElseIf Result = DialogResult.No Then
             TimerObjetivo1.Start()
         End If
     End Sub
-
 End Class
