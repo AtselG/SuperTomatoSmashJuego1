@@ -130,14 +130,8 @@
   <data name="Tomatocopter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tomatocopter.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cursor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cursor2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Right1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Right1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cursor41" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cursor4.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Tomate6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tomate6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,14 +142,8 @@
   <data name="_Exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Exit1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cursor32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cursor3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Tomate7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tomate7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cursor22" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cursor2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Taco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Taco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -165,9 +153,6 @@
   </data>
   <data name="Tomate2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tomate2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cursor21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cursor2.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Drip_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Drip_2.x-wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -181,32 +166,17 @@
   <data name="Tomate5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tomate5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MusicJuego" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MusicJuego.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="Fondo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fondo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cursor4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cursor4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Big_Boy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Big Boy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MusicInicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MusicInicio.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="Tomate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tomate1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cursor11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cursor1.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="Tick1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tick1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icono.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Tomate10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tomate10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -216,12 +186,6 @@
   </data>
   <data name="Tomate3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tomate3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cursor12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cursor1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cursor31" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cursor3.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Objetivo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Objetivo1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,15 +208,6 @@
   <data name="Icono1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cursor42" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cursor4.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cursor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cursor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cursor3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cursor3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Volver2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Volver2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -261,5 +216,32 @@
   </data>
   <data name="Fondo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\top-view-of-whole-and-cut-tomatoes-on-blue-background-with-copy-space-free-photo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icono.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cursor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cursor11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cursor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cursor21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cursor3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cursor31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cursor4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor4.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cursor41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursor41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

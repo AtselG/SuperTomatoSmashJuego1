@@ -1,19 +1,19 @@
 ﻿Public Class FormOpciones
     Private Sub LabelSi_Click(sender As Object, e As EventArgs) Handles LabelSi.Click
-        My.Computer.Audio.Play(My.Resources.Drip_2, AudioPlayMode.Background)
-        My.Computer.Audio.Stop()
+        SoundOnOff = True
         LabelSi.Hide()
         LabelNo.Show()
     End Sub
 
     Private Sub LabelNo_Click(sender As Object, e As EventArgs) Handles LabelNo.Click
-        My.Computer.Audio.Play(My.Resources.Drip_2, AudioPlayMode.Background)
-        My.Computer.Audio.Play(My.Resources.MusicInicio, AudioPlayMode.BackgroundLoop)
+        SoundOnOff = False
         LabelNo.Hide()
         LabelSi.Show()
     End Sub
     Private Sub ButtonVolver_Click_1(sender As Object, e As EventArgs) Handles ButtonVolver.Click
-        My.Computer.Audio.Play(My.Resources.Drip_2, AudioPlayMode.Background)
+        If SoundOnOff = True Then
+            My.Computer.Audio.Play(My.Resources.Drip_2, AudioPlayMode.Background)
+        End If
         FormInicio.Show()
         Close()
     End Sub
@@ -28,7 +28,9 @@
     End Sub
 
     Private Sub ButtonRight1_Click(sender As Object, e As EventArgs) Handles ButtonRight1.Click
-        My.Computer.Audio.Play(My.Resources.Drip_2, AudioPlayMode.Background)
+        If SoundOnOff = True Then
+            My.Computer.Audio.Play(My.Resources.Drip_2, AudioPlayMode.Background)
+        End If
         CursorCont += 1
         If CursorCont = 1 Then
             ButtonLeft1.Show()
@@ -54,7 +56,9 @@
     End Sub
 
     Private Sub ButtonLeft1_Click(sender As Object, e As EventArgs) Handles ButtonLeft1.Click
-        My.Computer.Audio.Play(My.Resources.Drip_2, AudioPlayMode.Background)
+        If SoundOnOff = True Then
+            My.Computer.Audio.Play(My.Resources.Drip_2, AudioPlayMode.Background)
+        End If
         CursorCont -= 1
         If CursorCont = 0 Then
             ButtonTick.Hide()
@@ -79,16 +83,23 @@
     End Sub
 
     Private Sub ButtonTick_Click(sender As Object, e As EventArgs) Handles ButtonTick.Click
-        My.Computer.Audio.Play(My.Resources.Drip_2, AudioPlayMode.Background)
+        If SoundOnOff = True Then
+            My.Computer.Audio.Play(My.Resources.Drip_2, AudioPlayMode.Background)
+        End If
         ButtonTick.Hide()
+
         If CursorCont = 1 Then
-            CursorOpciones = (My.Resources.Cursor12)
-        ElseIf CursorCont = 2
-            CursorOpciones = (My.Resources.Cursor22)
-        ElseIf CursorCont = 3
-            CursorOpciones = (My.Resources.Cursor32)
-        ElseIf CursorCont = 4
-            CursorOpciones = (My.Resources.Cursor42)
+            CursorOpciones = (My.Resources.Cursor1)
+            CursorSiNo = True
+        ElseIf CursorCont = 2 Then
+            CursorOpciones = (My.Resources.Cursor2)
+            CursorSiNo = True
+        ElseIf CursorCont = 3 Then
+            CursorOpciones = (My.Resources.Cursor3)
+            CursorSiNo = True
+        ElseIf CursorCont = 4 Then
+            CursorOpciones = (My.Resources.Cursor4)
+            CursorSiNo = True
         End If
     End Sub
 End Class

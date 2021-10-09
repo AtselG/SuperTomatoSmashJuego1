@@ -81,91 +81,51 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''  Busca un recurso adaptado de tipo System.Drawing.Icon similar a (Icono).
         '''</summary>
-        Friend ReadOnly Property Cursor1() As System.Drawing.Bitmap
+        Friend ReadOnly Property Cursor1() As System.Drawing.Icon
             Get
                 Dim obj As Object = ResourceManager.GetObject("Cursor1", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
+                Return CType(obj,System.Drawing.Icon)
             End Get
         End Property
         
         '''<summary>
-        '''  Busca un recurso adaptado de tipo System.Byte[].
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Cursor11() As Byte()
+        Friend ReadOnly Property Cursor11() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Cursor11", resourceCulture)
-                Return CType(obj,Byte())
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
         
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Icon similar a (Icono).
         '''</summary>
-        Friend ReadOnly Property Cursor12() As System.Drawing.Icon
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Cursor12", resourceCulture)
-                Return CType(obj,System.Drawing.Icon)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property Cursor2() As System.Drawing.Bitmap
+        Friend ReadOnly Property Cursor2() As System.Drawing.Icon
             Get
                 Dim obj As Object = ResourceManager.GetObject("Cursor2", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
+                Return CType(obj,System.Drawing.Icon)
             End Get
         End Property
         
         '''<summary>
-        '''  Busca un recurso adaptado de tipo System.Byte[].
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Cursor21() As Byte()
+        Friend ReadOnly Property Cursor21() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Cursor21", resourceCulture)
-                Return CType(obj,Byte())
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
         
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Icon similar a (Icono).
         '''</summary>
-        Friend ReadOnly Property Cursor22() As System.Drawing.Icon
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Cursor22", resourceCulture)
-                Return CType(obj,System.Drawing.Icon)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property Cursor3() As System.Drawing.Bitmap
+        Friend ReadOnly Property Cursor3() As System.Drawing.Icon
             Get
                 Dim obj As Object = ResourceManager.GetObject("Cursor3", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Busca un recurso adaptado de tipo System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property Cursor31() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Cursor31", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Busca un recurso adaptado de tipo System.Drawing.Icon similar a (Icono).
-        '''</summary>
-        Friend ReadOnly Property Cursor32() As System.Drawing.Icon
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Cursor32", resourceCulture)
                 Return CType(obj,System.Drawing.Icon)
             End Get
         End Property
@@ -173,30 +133,30 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Cursor4() As System.Drawing.Bitmap
+        Friend ReadOnly Property Cursor31() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Cursor4", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Cursor31", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Busca un recurso adaptado de tipo System.Byte[].
-        '''</summary>
-        Friend ReadOnly Property Cursor41() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Cursor41", resourceCulture)
-                Return CType(obj,Byte())
             End Get
         End Property
         
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Icon similar a (Icono).
         '''</summary>
-        Friend ReadOnly Property Cursor42() As System.Drawing.Icon
+        Friend ReadOnly Property Cursor4() As System.Drawing.Icon
             Get
-                Dim obj As Object = ResourceManager.GetObject("Cursor42", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Cursor4", resourceCulture)
                 Return CType(obj,System.Drawing.Icon)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Cursor41() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Cursor41", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
         
@@ -296,24 +256,6 @@ Namespace My.Resources
             Get
                 Dim obj As Object = ResourceManager.GetObject("Logo1", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
-        '''</summary>
-        Friend ReadOnly Property MusicInicio() As System.IO.UnmanagedMemoryStream
-            Get
-                Return ResourceManager.GetStream("MusicInicio", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
-        '''</summary>
-        Friend ReadOnly Property MusicJuego() As System.IO.UnmanagedMemoryStream
-            Get
-                Return ResourceManager.GetStream("MusicJuego", resourceCulture)
             End Get
         End Property
         

@@ -11,7 +11,7 @@
     <AssemblyName>SuperTomatoSmashJuego1</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>C:\Users\Axel Giménez\Desktop\</PublishUrl>
@@ -29,6 +29,7 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -87,10 +88,46 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="C1.Win.4.5.2, Version=4.5.20212.513, Culture=neutral, PublicKeyToken=944ae1ea0e47ca04" />
+    <Reference Include="C1.Win.C1Command.4.5.2, Version=4.5.20212.513, Culture=neutral, PublicKeyToken=e808566f358766d8, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1Input.4.5.2, Version=4.5.20212.513, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a" />
+    <Reference Include="C1.Win.C1Themes.4.5.2, Version=4.5.20212.513, Culture=neutral, PublicKeyToken=594a0605db190bb9" />
+    <Reference Include="C1.Win.C1Themes.Extended.4.5.2, Version=4.5.20212.513, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1Win7Pack.4.5.2, Version=4.5.20212.513, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="ComponentFactory.Krypton.Design, Version=4.4.1.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\KryptonWinFormControls.4.4.1.0\lib\net40\ComponentFactory.Krypton.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Docking, Version=4.4.1.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\KryptonWinFormControls.4.4.1.0\lib\net40\ComponentFactory.Krypton.Docking.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Navigator, Version=4.4.1.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\KryptonWinFormControls.4.4.1.0\lib\net40\ComponentFactory.Krypton.Navigator.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Ribbon, Version=4.4.1.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\KryptonWinFormControls.4.4.1.0\lib\net40\ComponentFactory.Krypton.Ribbon.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=4.4.1.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\KryptonWinFormControls.4.4.1.0\lib\net40\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Workspace, Version=4.4.1.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\KryptonWinFormControls.4.4.1.0\lib\net40\ComponentFactory.Krypton.Workspace.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.Updated.0.2.2\lib\MaterialSkin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -257,6 +294,7 @@
     <EmbeddedResource Include="FormInicio.resx">
       <DependentUpon>FormInicio.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -275,6 +313,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="packages.config" />
     <None Include="Resources\Drip_2.x-wav" />
   </ItemGroup>
   <ItemGroup>
@@ -294,18 +333,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Volver1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Cursor1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Cursor3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Cursor4.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Cursor2.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Objetivo2.gif" />
@@ -365,18 +392,6 @@
     <None Include="Resources\Icono.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Cursor3.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Cursor4.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Cursor2.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Cursor1.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Tick1.png" />
   </ItemGroup>
   <ItemGroup>
@@ -402,9 +417,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Exit0.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Icono.ico" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Tomate1.jpg" />
@@ -438,6 +450,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icono.ico" />
+    <None Include="Resources\Cursor41.png" />
+    <None Include="Resources\Cursor31.png" />
+    <None Include="Resources\Cursor21.png" />
+    <None Include="Resources\Cursor11.png" />
+    <None Include="Resources\Cursor4.ico" />
+    <None Include="Resources\Cursor3.ico" />
+    <None Include="Resources\Cursor1.ico" />
+    <None Include="Resources\Cursor2.ico" />
+    <None Include="Resources\Cursor4.png" />
+    <None Include="Resources\Cursor3.png" />
+    <None Include="Resources\Cursor2.png" />
+    <None Include="Resources\Cursor1.png" />
+    <None Include="Resources\Icono.ico" />
     <None Include="Resources\top-view-of-whole-and-cut-tomatoes-on-blue-background-with-copy-space-free-photo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

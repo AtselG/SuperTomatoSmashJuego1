@@ -2,7 +2,11 @@
     Private Sub FormJugar_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         TimerObjetivo1.Start()
         LabelContador.Text = " 0/10 "
-        'Me.Cursor = New Cursor(ModuleVariables.CursorOpciones.Handle)
+        If CursorSiNo = False Then
+            Me.Cursor = New Cursor(Cursor1.Handle)
+        ElseIf Cursorsino = True Then
+            Me.Cursor = New Cursor(ModuleVariables.CursorOpciones.Handle)
+        End If
         PictureBox2.Hide()
     End Sub
 
@@ -105,7 +109,9 @@
         Timer1.Start()
         PictureBoxObjetivo1.Hide()
         ContCont += 1
-        My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        If SoundOnOff = True Then
+            My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        End If
         PictureBox2.Location = PictureBoxObjetivo1.Location
         PictureBox2.Show()
     End Sub
@@ -113,7 +119,9 @@
         Timer1.Start()
         PictureBoxObjetivo2.Hide()
         ContCont += 1
-        My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        If SoundOnOff = True Then
+            My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        End If
         PictureBox2.Location = PictureBoxObjetivo2.Location
         PictureBox2.Show()
     End Sub
@@ -121,7 +129,9 @@
         Timer1.Start()
         PictureBoxObjetivo3.Hide()
         ContCont += 1
-        My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        If SoundOnOff = True Then
+            My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        End If
         PictureBox2.Location = PictureBoxObjetivo3.Location
         PictureBox2.Show()
     End Sub
@@ -129,7 +139,9 @@
         Timer1.Start()
         PictureBoxObjetivo4.Hide()
         ContCont += 1
-        My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        If SoundOnOff = True Then
+            My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        End If
         PictureBox2.Location = PictureBoxObjetivo4.Location
         PictureBox2.Show()
     End Sub
@@ -137,7 +149,9 @@
         Timer1.Start()
         PictureBoxObjetivo5.Hide()
         ContCont += 1
-        My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        If SoundOnOff = True Then
+            My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        End If
         PictureBox2.Location = PictureBoxObjetivo5.Location
         PictureBox2.Show()
     End Sub
@@ -145,7 +159,9 @@
         Timer1.Start()
         PictureBoxObjetivo6.Hide()
         ContCont += 1
-        My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        If SoundOnOff = True Then
+            My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        End If
         PictureBox2.Location = PictureBoxObjetivo6.Location
         PictureBox2.Show()
     End Sub
@@ -153,7 +169,9 @@
         Timer1.Start()
         PictureBoxObjetivo7.Hide()
         ContCont += 1
-        My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        If SoundOnOff = True Then
+            My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        End If
         PictureBox2.Location = PictureBoxObjetivo7.Location
         PictureBox2.Show()
     End Sub
@@ -161,7 +179,9 @@
         Timer1.Start()
         PictureBoxObjetivo8.Hide()
         ContCont += 1
-        My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        If SoundOnOff = True Then
+            My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        End If
         PictureBox2.Location = PictureBoxObjetivo8.Location
         PictureBox2.Show()
     End Sub
@@ -169,7 +189,9 @@
         Timer1.Start()
         PictureBoxObjetivo9.Hide()
         ContCont += 1
-        My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        If SoundOnOff = True Then
+            My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        End If
         PictureBox2.Location = PictureBoxObjetivo9.Location
         PictureBox2.Show()
     End Sub
@@ -177,7 +199,9 @@
         Timer1.Start()
         PictureBoxObjetivo10.Hide()
         ContCont += 1
-        My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        If SoundOnOff = True Then
+            My.Computer.Audio.Play(My.Resources.LaserSound1, AudioPlayMode.Background)
+        End If
         PictureBox2.Location = PictureBoxObjetivo10.Location
         PictureBox2.Show()
     End Sub
@@ -209,11 +233,20 @@
 
     Private Sub ButtonSalir_Click(sender As Object, e As EventArgs) Handles ButtonSalir.Click
         TimerObjetivo1.Stop()
+        If SoundOnOff = True Then
+            My.Computer.Audio.Play(My.Resources.Drip_2, AudioPlayMode.Background)
+        End If
         Result = MessageBox.Show("¿Estás seguro de que quieres volver al menú principal?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk)
         If Result = DialogResult.Yes Then
+            If SoundOnOff = True Then
+                My.Computer.Audio.Play(My.Resources.Drip_2, AudioPlayMode.Background)
+            End If
             FormInicio.Show()
             Close()
         ElseIf Result = DialogResult.No Then
+            If SoundOnOff = True Then
+                My.Computer.Audio.Play(My.Resources.Drip_2, AudioPlayMode.Background)
+            End If
             TimerObjetivo1.Start()
         End If
     End Sub
