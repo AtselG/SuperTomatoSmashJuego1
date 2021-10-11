@@ -36,17 +36,17 @@
             ButtonLeft1.Show()
             PictureBoxCursor1.Show()
             ButtonTick.Show()
-        ElseIf CursorCont = 2
+        ElseIf CursorCont = 2 Then
             PictureBoxCursor1.Hide()
             PictureBoxCursor2.Show()
             ButtonTick.Show()
             ButtonLeft1.Show()
-        ElseIf CursorCont = 3
+        ElseIf CursorCont = 3 Then
             PictureBoxCursor2.Hide()
             PictureBoxCursor3.Show()
             ButtonTick.Show()
             ButtonLeft1.Show()
-        ElseIf CursorCont = 4
+        ElseIf CursorCont = 4 Then
             PictureBoxCursor3.Hide()
             PictureBoxCursor4.Show()
             ButtonRight1.Hide()
@@ -87,19 +87,6 @@
             My.Computer.Audio.Play(My.Resources.Drip_2, AudioPlayMode.Background)
         End If
         ButtonTick.Hide()
-
-        If CursorCont = 1 Then
-            CursorOpciones = (My.Resources.Cursor1)
-            CursorSiNo = True
-        ElseIf CursorCont = 2 Then
-            CursorOpciones = (My.Resources.Cursor2)
-            CursorSiNo = True
-        ElseIf CursorCont = 3 Then
-            CursorOpciones = (My.Resources.Cursor3)
-            CursorSiNo = True
-        ElseIf CursorCont = 4 Then
-            CursorOpciones = (My.Resources.Cursor4)
-            CursorSiNo = True
-        End If
+        CursorSiNo = True
     End Sub
 End Class

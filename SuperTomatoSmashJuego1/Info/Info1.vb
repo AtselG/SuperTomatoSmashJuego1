@@ -21,4 +21,18 @@
     Private Sub Info1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.Icon = (My.Resources.Icono)
     End Sub
+    Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        Dim msgboxresponse As MsgBoxResult
+        If e.CloseReason = CloseReason.UserClosing Then
+            msgboxresponse = MsgBox("¿Deseas volver al menú principal?",
+                                MsgBoxStyle.Question + MsgBoxStyle.YesNo, Me.Text)
+            If msgboxresponse = MsgBoxResult.Yes Then
+                Close()
+                FormJugar.Close()
+                FormInicio.Show()
+            ElseIf msgboxresponse = MsgBoxResult.No Then
+                e.Cancel = True
+            End If
+        End If
+    End Sub
 End Class

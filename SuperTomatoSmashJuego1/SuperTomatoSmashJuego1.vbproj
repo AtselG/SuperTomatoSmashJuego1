@@ -149,6 +149,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormDificultades.Designer.vb">
+      <DependentUpon>FormDificultades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDificultades.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Info\Info1.Designer.vb">
       <DependentUpon>Info1.vb</DependentUpon>
     </Compile>
@@ -252,6 +258,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormDificultades.resx">
+      <DependentUpon>FormDificultades.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Info\Info1.resx">
       <DependentUpon>Info1.vb</DependentUpon>
     </EmbeddedResource>
@@ -314,6 +323,8 @@
     </None>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Resources\Cursor2cur.ani" />
+    <None Include="Resources\Cursor3cur.ani" />
     <None Include="Resources\Drip_2.x-wav" />
   </ItemGroup>
   <ItemGroup>
@@ -329,141 +340,59 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Volver2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Volver1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Objetivo2.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\MusicJuego.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\MusicInicio.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\LaserSound.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Cursor4.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Cursor3.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Cursor2.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Cursor1.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Small Tomato.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Tomonster.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Tomato Mech Design.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Big Boy.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Objetivo1.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Tomatocopter.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Taco.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Logo1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Fondo2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Fondo1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Icono.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Tick1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Left1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Right1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Tick11.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Exit1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Exit.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\LaserSound.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Exit2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Exit0.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Tomate1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Tomate2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Tomate3.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Tomate4.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Tomate5.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Tomate6.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Tomate7.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Tomate8.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Tomate9.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Tomate10.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Icono.ico" />
-    <None Include="Resources\Cursor41.png" />
-    <None Include="Resources\Cursor31.png" />
-    <None Include="Resources\Cursor21.png" />
-    <None Include="Resources\Cursor11.png" />
-    <None Include="Resources\Cursor4.ico" />
-    <None Include="Resources\Cursor3.ico" />
-    <None Include="Resources\Cursor1.ico" />
-    <None Include="Resources\Cursor2.ico" />
-    <None Include="Resources\Cursor4.png" />
-    <None Include="Resources\Cursor3.png" />
-    <None Include="Resources\Cursor2.png" />
-    <None Include="Resources\Cursor1.png" />
+    <None Include="Resources\Cursor11img.png" />
+    <None Include="Resources\Cursor11cur.cur" />
+    <None Include="Resources\Cursor10img.png" />
+    <None Include="Resources\Cursor10cur.cur" />
+    <None Include="Resources\Cursor9img.png" />
+    <None Include="Resources\Cursor9cur.cur" />
+    <None Include="Resources\Cursor8img.png" />
+    <None Include="Resources\Cursor8cur.cur" />
+    <None Include="Resources\Cursor7img.png" />
+    <None Include="Resources\Cursor7cur.cur" />
+    <None Include="Resources\Cursor6img.png" />
+    <None Include="Resources\Cursor6cur.cur" />
+    <None Include="Resources\Cursor5img.png" />
+    <None Include="Resources\Cursor5cur.cur" />
+    <None Include="Resources\Cursor4img.png" />
+    <None Include="Resources\Cursor4cur.cur" />
+    <None Include="Resources\Cursor3img.gif" />
+    <None Include="Resources\Cursor2img.gif" />
+    <None Include="Resources\Cursor1img.png" />
+    <None Include="Resources\Cursor1cur.cur" />
+    <None Include="Resources\Volver2.png" />
+    <None Include="Resources\Volver1.png" />
+    <None Include="Resources\Tomonster.gif" />
+    <None Include="Resources\Tomatocopter.gif" />
+    <None Include="Resources\Tomato Mech Design.gif" />
+    <None Include="Resources\Tomate10.jpg" />
+    <None Include="Resources\Tomate9.jpg" />
+    <None Include="Resources\Tomate8.jpg" />
+    <None Include="Resources\Tomate7.jpg" />
+    <None Include="Resources\Tomate6.jpg" />
+    <None Include="Resources\Tomate5.jpg" />
+    <None Include="Resources\Tomate4.jpg" />
+    <None Include="Resources\Tomate3.jpg" />
+    <None Include="Resources\Tomate2.jpg" />
+    <None Include="Resources\Tomate1.jpg" />
+    <None Include="Resources\Tick1.png" />
+    <None Include="Resources\Taco.gif" />
+    <None Include="Resources\Small Tomato.gif" />
+    <None Include="Resources\Right1.png" />
+    <None Include="Resources\Objetivo2.gif" />
+    <None Include="Resources\Objetivo1.gif" />
+    <None Include="Resources\Logo1.png" />
+    <None Include="Resources\Left1.png" />
+    <None Include="Resources\LaserSound.wav" />
+    <None Include="Resources\LaserSound.mp3" />
+    <None Include="Resources\Icono.png" />
     <None Include="Resources\Icono.ico" />
-    <None Include="Resources\top-view-of-whole-and-cut-tomatoes-on-blue-background-with-copy-space-free-photo.jpg" />
+    <None Include="Resources\Fondo3.jpg" />
+    <None Include="Resources\Fondo2.png" />
+    <None Include="Resources\Fondo1.png" />
+    <None Include="Resources\Exit0.png" />
+    <None Include="Resources\Big Boy.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,26 +1,22 @@
 ﻿Public Class FormJugar
     Private Sub FormJugar_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ContCont = 0
         TimerObjetivo1.Start()
         LabelContador.Text = " 0/10 "
         If CursorSiNo = False Then
-            Me.Cursor = New Cursor(Cursor1.Handle)
-        ElseIf Cursorsino = True Then
-            Me.Cursor = New Cursor(ModuleVariables.CursorOpciones.Handle)
+            Me.Cursor = Cursors.Cross
+        ElseIf CursorSiNo = True Then
+            If CursorCont = 1 Then
+                Me.Cursor = New Cursor(Cursor1)
+            ElseIf CursorCont = 2 Then
+                Me.Cursor = New Cursor(Cursor2)
+            ElseIf CursorCont = 3 Then
+                Me.Cursor = New Cursor(Cursor3)
+            ElseIf CursorCont = 4 Then
+                Me.Cursor = New Cursor(Cursor4)
+            End If
         End If
         PictureBox2.Hide()
-    End Sub
-
-    Private Sub TimerObjetivo1_Tick(sender As Object, e As EventArgs) Handles TimerObjetivo1.Tick
-        PictureBoxObjetivo1.Left -= 20
-        PictureBoxObjetivo2.Left += 30
-        PictureBoxObjetivo3.Left -= 40
-        PictureBoxObjetivo4.Left += 20
-        PictureBoxObjetivo5.Left -= 30
-        PictureBoxObjetivo6.Left += 40
-        PictureBoxObjetivo7.Left -= 20
-        PictureBoxObjetivo8.Left += 30
-        PictureBoxObjetivo9.Left -= 40
-        PictureBoxObjetivo10.Left += 20
     End Sub
 
     Private Sub TimerContador1_Tick(sender As Object, e As EventArgs) Handles TimerContador1.Tick
@@ -53,6 +49,74 @@
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         PictureBox2.Hide()
+    End Sub
+    Private Sub TimerObjetivo1_Tick(sender As Object, e As EventArgs) Handles TimerObjetivo1.Tick
+        If DificultadElegida = 1 Then
+            If DificultadBajaNivel = 1 Then
+                PictureBoxObjetivo1.Left -= 20
+                PictureBoxObjetivo2.Left += 30
+                PictureBoxObjetivo3.Left -= 40
+            ElseIf DificultadBajaNivel = 2 Then
+                PictureBoxObjetivo1.Left -= 20 + 6
+                PictureBoxObjetivo2.Left += 30 + 6
+                PictureBoxObjetivo3.Left -= 40 + 6
+            ElseIf DificultadBajaNivel = 3 Then
+                PictureBoxObjetivo1.Left -= 20 + 7
+                PictureBoxObjetivo2.Left += 30 + 7
+                PictureBoxObjetivo3.Left -= 40 + 7
+                PictureBoxObjetivo4.Left += 50 + 7
+            ElseIf DificultadBajaNivel = 4 Then
+                PictureBoxObjetivo1.Left -= 20 + 8
+                PictureBoxObjetivo2.Left += 30 + 8
+                PictureBoxObjetivo3.Left -= 40 + 8
+                PictureBoxObjetivo4.Left += 50 + 8
+            ElseIf DificultadBajaNivel = 5 Then
+                PictureBoxObjetivo1.Left -= 20 + 9
+                PictureBoxObjetivo2.Left += 30 + 9
+                PictureBoxObjetivo3.Left -= 40 + 9
+                PictureBoxObjetivo4.Left += 50 + 9
+                PictureBoxObjetivo5.Left -= 20 + 9
+            ElseIf DificultadBajaNivel = 6 Then
+                PictureBoxObjetivo1.Left -= 20 + 10
+                PictureBoxObjetivo2.Left += 30 + 10
+                PictureBoxObjetivo3.Left -= 40 + 10
+                PictureBoxObjetivo4.Left += 50 + 10
+                PictureBoxObjetivo5.Left -= 40 + 10
+            ElseIf DificultadBajaNivel = 7 Then
+                PictureBoxObjetivo1.Left -= 20 + 11
+                PictureBoxObjetivo2.Left += 30 + 11
+                PictureBoxObjetivo3.Left -= 40 + 11
+                PictureBoxObjetivo4.Left += 50 + 11
+                PictureBoxObjetivo5.Left -= 40 + 11
+            ElseIf DificultadBajaNivel = 8 Then
+                PictureBoxObjetivo1.Left -= 20 + 12
+                PictureBoxObjetivo2.Left += 30 + 12
+                PictureBoxObjetivo3.Left -= 40 + 12
+                PictureBoxObjetivo4.Left += 50 + 12
+                PictureBoxObjetivo5.Left -= 20 + 12
+                PictureBoxObjetivo6.Left += 30 + 12
+            ElseIf DificultadBajaNivel = 9 Then
+                PictureBoxObjetivo1.Left -= 20 + 13
+                PictureBoxObjetivo2.Left += 30 + 13
+                PictureBoxObjetivo3.Left -= 40 + 13
+                PictureBoxObjetivo4.Left += 50 + 13
+                PictureBoxObjetivo5.Left -= 20 + 13
+                PictureBoxObjetivo6.Left += 20 + 13
+                PictureBoxObjetivo7.Left -= 20 + 13
+            ElseIf DificultadBajaNivel = 10 Then
+                PictureBoxObjetivo1.Left -= 20 + 14
+                PictureBoxObjetivo2.Left += 30 + 14
+                PictureBoxObjetivo3.Left -= 40 + 14
+                PictureBoxObjetivo4.Left += 20 + 14
+                PictureBoxObjetivo5.Left -= 30 + 14
+                PictureBoxObjetivo6.Left += 40 + 14
+                PictureBoxObjetivo7.Left -= 20 + 14
+                PictureBoxObjetivo8.Left += 30 + 14
+            End If
+        ElseIf DificultadElegida = 2 Then
+
+        ElseIf DificultadElegida = 3 Then
+        End If
     End Sub
     Private Sub PictureBoxObjetivo1_LocationChanged(sender As Object, e As EventArgs) Handles PictureBoxObjetivo1.LocationChanged
         If PictureBoxObjetivo1.Right <= Me.Left Then
@@ -105,7 +169,6 @@
         End If
     End Sub
     Private Sub PictureBoxObjetivo1_Click(sender As Object, e As EventArgs) Handles PictureBoxObjetivo1.Click
-        Info1.ShowDialog(owner:=Me)
         Timer1.Start()
         PictureBoxObjetivo1.Hide()
         ContCont += 1
