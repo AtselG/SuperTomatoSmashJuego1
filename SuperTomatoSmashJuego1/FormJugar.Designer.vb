@@ -35,13 +35,16 @@ Partial Class FormJugar
         Me.PictureBoxObjetivo7 = New System.Windows.Forms.PictureBox()
         Me.PictureBoxObjetivo9 = New System.Windows.Forms.PictureBox()
         Me.PictureBoxObjetivo10 = New System.Windows.Forms.PictureBox()
+        Me.PictureBoxObjetivo11 = New System.Windows.Forms.PictureBox()
+        Me.PictureBoxObjetivo13 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBoxObjetivo12 = New System.Windows.Forms.PictureBox()
         Me.LabelContador = New System.Windows.Forms.Label()
         Me.TimerContador1 = New System.Windows.Forms.Timer(Me.components)
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ButtonSalir = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBoxObjetivo1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBoxObjetivo2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBoxObjetivo3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -52,8 +55,11 @@ Partial Class FormJugar
         CType(Me.PictureBoxObjetivo7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBoxObjetivo9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBoxObjetivo10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxObjetivo11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxObjetivo13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxObjetivo12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TimerObjetivo1
@@ -64,9 +70,9 @@ Partial Class FormJugar
         Me.PictureBoxObjetivo1.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBoxObjetivo1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBoxObjetivo1.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Objetivo1
-        Me.PictureBoxObjetivo1.Location = New System.Drawing.Point(932, 12)
+        Me.PictureBoxObjetivo1.Location = New System.Drawing.Point(942, 12)
         Me.PictureBoxObjetivo1.Name = "PictureBoxObjetivo1"
-        Me.PictureBoxObjetivo1.Size = New System.Drawing.Size(80, 55)
+        Me.PictureBoxObjetivo1.Size = New System.Drawing.Size(70, 45)
         Me.PictureBoxObjetivo1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBoxObjetivo1.TabIndex = 0
         Me.PictureBoxObjetivo1.TabStop = False
@@ -76,9 +82,9 @@ Partial Class FormJugar
         Me.PictureBoxObjetivo2.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBoxObjetivo2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBoxObjetivo2.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Objetivo2
-        Me.PictureBoxObjetivo2.Location = New System.Drawing.Point(12, 73)
+        Me.PictureBoxObjetivo2.Location = New System.Drawing.Point(12, 63)
         Me.PictureBoxObjetivo2.Name = "PictureBoxObjetivo2"
-        Me.PictureBoxObjetivo2.Size = New System.Drawing.Size(80, 55)
+        Me.PictureBoxObjetivo2.Size = New System.Drawing.Size(70, 45)
         Me.PictureBoxObjetivo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBoxObjetivo2.TabIndex = 1
         Me.PictureBoxObjetivo2.TabStop = False
@@ -88,9 +94,9 @@ Partial Class FormJugar
         Me.PictureBoxObjetivo3.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBoxObjetivo3.BackColor = System.Drawing.Color.Transparent
         Me.PictureBoxObjetivo3.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Objetivo1
-        Me.PictureBoxObjetivo3.Location = New System.Drawing.Point(932, 134)
+        Me.PictureBoxObjetivo3.Location = New System.Drawing.Point(942, 114)
         Me.PictureBoxObjetivo3.Name = "PictureBoxObjetivo3"
-        Me.PictureBoxObjetivo3.Size = New System.Drawing.Size(80, 55)
+        Me.PictureBoxObjetivo3.Size = New System.Drawing.Size(70, 45)
         Me.PictureBoxObjetivo3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBoxObjetivo3.TabIndex = 2
         Me.PictureBoxObjetivo3.TabStop = False
@@ -100,9 +106,9 @@ Partial Class FormJugar
         Me.PictureBoxObjetivo4.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBoxObjetivo4.BackColor = System.Drawing.Color.Transparent
         Me.PictureBoxObjetivo4.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Objetivo2
-        Me.PictureBoxObjetivo4.Location = New System.Drawing.Point(12, 195)
+        Me.PictureBoxObjetivo4.Location = New System.Drawing.Point(12, 165)
         Me.PictureBoxObjetivo4.Name = "PictureBoxObjetivo4"
-        Me.PictureBoxObjetivo4.Size = New System.Drawing.Size(80, 55)
+        Me.PictureBoxObjetivo4.Size = New System.Drawing.Size(70, 45)
         Me.PictureBoxObjetivo4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBoxObjetivo4.TabIndex = 3
         Me.PictureBoxObjetivo4.TabStop = False
@@ -112,9 +118,9 @@ Partial Class FormJugar
         Me.PictureBoxObjetivo5.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBoxObjetivo5.BackColor = System.Drawing.Color.Transparent
         Me.PictureBoxObjetivo5.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Objetivo1
-        Me.PictureBoxObjetivo5.Location = New System.Drawing.Point(932, 256)
+        Me.PictureBoxObjetivo5.Location = New System.Drawing.Point(942, 216)
         Me.PictureBoxObjetivo5.Name = "PictureBoxObjetivo5"
-        Me.PictureBoxObjetivo5.Size = New System.Drawing.Size(80, 55)
+        Me.PictureBoxObjetivo5.Size = New System.Drawing.Size(70, 45)
         Me.PictureBoxObjetivo5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBoxObjetivo5.TabIndex = 4
         Me.PictureBoxObjetivo5.TabStop = False
@@ -124,9 +130,9 @@ Partial Class FormJugar
         Me.PictureBoxObjetivo6.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBoxObjetivo6.BackColor = System.Drawing.Color.Transparent
         Me.PictureBoxObjetivo6.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Objetivo2
-        Me.PictureBoxObjetivo6.Location = New System.Drawing.Point(12, 317)
+        Me.PictureBoxObjetivo6.Location = New System.Drawing.Point(12, 267)
         Me.PictureBoxObjetivo6.Name = "PictureBoxObjetivo6"
-        Me.PictureBoxObjetivo6.Size = New System.Drawing.Size(80, 55)
+        Me.PictureBoxObjetivo6.Size = New System.Drawing.Size(70, 45)
         Me.PictureBoxObjetivo6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBoxObjetivo6.TabIndex = 5
         Me.PictureBoxObjetivo6.TabStop = False
@@ -136,9 +142,9 @@ Partial Class FormJugar
         Me.PictureBoxObjetivo8.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBoxObjetivo8.BackColor = System.Drawing.Color.Transparent
         Me.PictureBoxObjetivo8.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Objetivo2
-        Me.PictureBoxObjetivo8.Location = New System.Drawing.Point(12, 439)
+        Me.PictureBoxObjetivo8.Location = New System.Drawing.Point(12, 369)
         Me.PictureBoxObjetivo8.Name = "PictureBoxObjetivo8"
-        Me.PictureBoxObjetivo8.Size = New System.Drawing.Size(80, 55)
+        Me.PictureBoxObjetivo8.Size = New System.Drawing.Size(70, 45)
         Me.PictureBoxObjetivo8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBoxObjetivo8.TabIndex = 7
         Me.PictureBoxObjetivo8.TabStop = False
@@ -148,9 +154,9 @@ Partial Class FormJugar
         Me.PictureBoxObjetivo7.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBoxObjetivo7.BackColor = System.Drawing.Color.Transparent
         Me.PictureBoxObjetivo7.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Objetivo1
-        Me.PictureBoxObjetivo7.Location = New System.Drawing.Point(932, 378)
+        Me.PictureBoxObjetivo7.Location = New System.Drawing.Point(942, 318)
         Me.PictureBoxObjetivo7.Name = "PictureBoxObjetivo7"
-        Me.PictureBoxObjetivo7.Size = New System.Drawing.Size(80, 55)
+        Me.PictureBoxObjetivo7.Size = New System.Drawing.Size(70, 45)
         Me.PictureBoxObjetivo7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBoxObjetivo7.TabIndex = 8
         Me.PictureBoxObjetivo7.TabStop = False
@@ -160,9 +166,9 @@ Partial Class FormJugar
         Me.PictureBoxObjetivo9.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBoxObjetivo9.BackColor = System.Drawing.Color.Transparent
         Me.PictureBoxObjetivo9.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Objetivo1
-        Me.PictureBoxObjetivo9.Location = New System.Drawing.Point(932, 500)
+        Me.PictureBoxObjetivo9.Location = New System.Drawing.Point(942, 419)
         Me.PictureBoxObjetivo9.Name = "PictureBoxObjetivo9"
-        Me.PictureBoxObjetivo9.Size = New System.Drawing.Size(80, 55)
+        Me.PictureBoxObjetivo9.Size = New System.Drawing.Size(70, 45)
         Me.PictureBoxObjetivo9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBoxObjetivo9.TabIndex = 10
         Me.PictureBoxObjetivo9.TabStop = False
@@ -172,12 +178,60 @@ Partial Class FormJugar
         Me.PictureBoxObjetivo10.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.PictureBoxObjetivo10.BackColor = System.Drawing.Color.Transparent
         Me.PictureBoxObjetivo10.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Objetivo2
-        Me.PictureBoxObjetivo10.Location = New System.Drawing.Point(12, 561)
+        Me.PictureBoxObjetivo10.Location = New System.Drawing.Point(12, 470)
         Me.PictureBoxObjetivo10.Name = "PictureBoxObjetivo10"
-        Me.PictureBoxObjetivo10.Size = New System.Drawing.Size(80, 55)
+        Me.PictureBoxObjetivo10.Size = New System.Drawing.Size(70, 45)
         Me.PictureBoxObjetivo10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBoxObjetivo10.TabIndex = 12
         Me.PictureBoxObjetivo10.TabStop = False
+        '
+        'PictureBoxObjetivo11
+        '
+        Me.PictureBoxObjetivo11.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.PictureBoxObjetivo11.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBoxObjetivo11.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Objetivo1
+        Me.PictureBoxObjetivo11.Location = New System.Drawing.Point(942, 521)
+        Me.PictureBoxObjetivo11.Name = "PictureBoxObjetivo11"
+        Me.PictureBoxObjetivo11.Size = New System.Drawing.Size(70, 45)
+        Me.PictureBoxObjetivo11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBoxObjetivo11.TabIndex = 18
+        Me.PictureBoxObjetivo11.TabStop = False
+        '
+        'PictureBoxObjetivo123
+        '
+        Me.PictureBoxObjetivo13.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.PictureBoxObjetivo13.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBoxObjetivo13.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Objetivo1
+        Me.PictureBoxObjetivo13.Location = New System.Drawing.Point(942, 623)
+        Me.PictureBoxObjetivo13.Name = "PictureBoxObjetivo123"
+        Me.PictureBoxObjetivo13.Size = New System.Drawing.Size(70, 45)
+        Me.PictureBoxObjetivo13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBoxObjetivo13.TabIndex = 19
+        Me.PictureBoxObjetivo13.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Explosion1
+        Me.PictureBox2.Location = New System.Drawing.Point(518, 484)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(70, 45)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 20
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBoxObjetivo12
+        '
+        Me.PictureBoxObjetivo12.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.PictureBoxObjetivo12.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBoxObjetivo12.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Objetivo2
+        Me.PictureBoxObjetivo12.Location = New System.Drawing.Point(12, 572)
+        Me.PictureBoxObjetivo12.Name = "PictureBoxObjetivo12"
+        Me.PictureBoxObjetivo12.Size = New System.Drawing.Size(70, 45)
+        Me.PictureBoxObjetivo12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBoxObjetivo12.TabIndex = 21
+        Me.PictureBoxObjetivo12.TabStop = False
         '
         'LabelContador
         '
@@ -240,18 +294,6 @@ Partial Class FormJugar
         '
         Me.Timer1.Interval = 1000
         '
-        'PictureBox2
-        '
-        Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(554, 500)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(80, 55)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 17
-        Me.PictureBox2.TabStop = False
-        '
         'FormJugar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -261,7 +303,10 @@ Partial Class FormJugar
         Me.BackgroundImage = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Fondo2
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1024, 745)
+        Me.Controls.Add(Me.PictureBoxObjetivo11)
+        Me.Controls.Add(Me.PictureBoxObjetivo13)
         Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.PictureBoxObjetivo12)
         Me.Controls.Add(Me.ButtonSalir)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.LabelContador)
@@ -294,8 +339,11 @@ Partial Class FormJugar
         CType(Me.PictureBoxObjetivo7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBoxObjetivo9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBoxObjetivo10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxObjetivo11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxObjetivo13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxObjetivo12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -318,5 +366,8 @@ Partial Class FormJugar
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents ButtonSalir As Button
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents PictureBoxObjetivo11 As PictureBox
+    Friend WithEvents PictureBoxObjetivo13 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBoxObjetivo12 As PictureBox
 End Class

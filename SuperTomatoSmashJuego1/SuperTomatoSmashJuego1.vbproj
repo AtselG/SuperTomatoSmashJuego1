@@ -341,6 +341,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icono.ico" />
+    <None Include="Resources\Explosion1.gif" />
     <None Include="Resources\Cursor11img.png" />
     <None Include="Resources\Cursor11cur.cur" />
     <None Include="Resources\Cursor10img.png" />
