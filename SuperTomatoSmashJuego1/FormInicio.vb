@@ -20,6 +20,5 @@
     End Sub
     Private Sub FormInicio_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         SoundOnOff = True
-        CursorSiNo = False
     End Sub
 End Class

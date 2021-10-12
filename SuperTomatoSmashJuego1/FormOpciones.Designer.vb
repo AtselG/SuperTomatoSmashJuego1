@@ -72,7 +72,7 @@ Partial Class FormOpciones
         Me.PictureBoxCursor2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBoxCursor2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBoxCursor2.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.PictureBoxCursor2.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Cursor2img
+        Me.PictureBoxCursor2.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Cursor5img
         Me.PictureBoxCursor2.Location = New System.Drawing.Point(487, 39)
         Me.PictureBoxCursor2.Name = "PictureBoxCursor2"
         Me.PictureBoxCursor2.Size = New System.Drawing.Size(50, 50)
@@ -85,7 +85,7 @@ Partial Class FormOpciones
         Me.PictureBoxCursor3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBoxCursor3.BackColor = System.Drawing.Color.Transparent
         Me.PictureBoxCursor3.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.PictureBoxCursor3.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Cursor3img
+        Me.PictureBoxCursor3.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Cursor6img
         Me.PictureBoxCursor3.Location = New System.Drawing.Point(487, 39)
         Me.PictureBoxCursor3.Name = "PictureBoxCursor3"
         Me.PictureBoxCursor3.Size = New System.Drawing.Size(50, 50)
@@ -98,7 +98,7 @@ Partial Class FormOpciones
         Me.PictureBoxCursor4.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBoxCursor4.BackColor = System.Drawing.Color.Transparent
         Me.PictureBoxCursor4.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.PictureBoxCursor4.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Cursor4img
+        Me.PictureBoxCursor4.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Cursor7img
         Me.PictureBoxCursor4.Location = New System.Drawing.Point(487, 39)
         Me.PictureBoxCursor4.Name = "PictureBoxCursor4"
         Me.PictureBoxCursor4.Size = New System.Drawing.Size(50, 50)

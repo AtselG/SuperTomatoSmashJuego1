@@ -11,20 +11,23 @@ Public Class FormDificultades
         DificultadElegida = 1
         DificultadBajaNivel = 1
         FormJugar.Show()
-        FormInicio.Close()
+        FormInicio.Hide()
+        Close()
     End Sub
 
     Private Sub MaterialRaisedButton2_Click(sender As Object, e As EventArgs) Handles MaterialRaisedButton2.Click
         DificultadElegida = 2
         DificultadMediaNivel = 1
         FormJugar.Show()
-        FormInicio.Close()
+        FormInicio.Hide()
+        Close()
     End Sub
 
     Private Sub MaterialRaisedButton3_Click(sender As Object, e As EventArgs) Handles MaterialRaisedButton3.Click
         DificultadElegida = 3
         DificultadAltaNivel = 1
         FormJugar.Show()
-        FormInicio.Close()
+        FormInicio.Hide()
+        Close()
     End Sub
 End Class
