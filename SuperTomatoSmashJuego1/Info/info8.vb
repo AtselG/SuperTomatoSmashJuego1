@@ -1,6 +1,6 @@
 ﻿Public Class Info8
     Private Sub Info1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ClosePermission7 = True
+        ClosePermission8 = True
         info7.Hide()
         Me.Icon = (My.Resources.Icono)
     End Sub
@@ -12,7 +12,7 @@
     End Sub
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         ClosePermission8 = False
-        info7.ShowDialog(owner:=FormJugar)
+        Info9.ShowDialog(owner:=FormJugar)
     End Sub
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         If DificultadElegida = 1 Then

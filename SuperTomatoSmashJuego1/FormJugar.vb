@@ -20,6 +20,255 @@
         LabelContador.Text = " 0 "
         TimerObjetivo1.Start()
         PictureBox2.Hide()
+        PictureBoxObjetivo1.Hide()
+        PictureBoxObjetivo2.Hide()
+        PictureBoxObjetivo3.Hide()
+        PictureBoxObjetivo4.Hide()
+        PictureBoxObjetivo5.Hide()
+        PictureBoxObjetivo6.Hide()
+        PictureBoxObjetivo7.Hide()
+        PictureBoxObjetivo8.Hide()
+        PictureBoxObjetivo9.Hide()
+        PictureBoxObjetivo10.Hide()
+        PictureBoxObjetivo11.Hide()
+        PictureBoxObjetivo12.Hide()
+        PictureBoxObjetivo13.Hide()
+        If DificultadElegida = 1 Then
+            If DificultadBajaNivel = 1 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+            ElseIf DificultadBajaNivel = 2 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+            ElseIf DificultadBajaNivel = 3 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+            ElseIf DificultadBajaNivel = 4 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+            ElseIf DificultadBajaNivel = 5 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+            ElseIf DificultadBajaNivel = 6 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+            ElseIf DificultadBajaNivel = 7 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+            ElseIf DificultadBajaNivel = 8 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+                PictureBoxObjetivo6.Show()
+            ElseIf DificultadBajaNivel = 9 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+                PictureBoxObjetivo6.Show()
+                PictureBoxObjetivo7.Show()
+            ElseIf DificultadBajaNivel = 10 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+                PictureBoxObjetivo6.Show()
+                PictureBoxObjetivo7.Show()
+                PictureBoxObjetivo8.Show()
+            End If
+        ElseIf DificultadElegida = 2 Then
+            If DificultadMediaNivel = 1 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+            ElseIf DificultadMediaNivel = 2 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+            ElseIf DificultadMediaNivel = 3 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+            ElseIf DificultadMediaNivel = 4 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+            ElseIf DificultadMediaNivel = 5 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+                PictureBoxObjetivo6.Show()
+            ElseIf DificultadMediaNivel = 6 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+                PictureBoxObjetivo6.Show()
+            ElseIf DificultadMediaNivel = 7 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+                PictureBoxObjetivo6.Show()
+                PictureBoxObjetivo7.Show()
+            ElseIf DificultadMediaNivel = 8 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+                PictureBoxObjetivo6.Show()
+                PictureBoxObjetivo7.Show()
+                PictureBoxObjetivo8.Show()
+            ElseIf DificultadMediaNivel = 9 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+                PictureBoxObjetivo6.Show()
+                PictureBoxObjetivo7.Show()
+                PictureBoxObjetivo8.Show()
+                PictureBoxObjetivo9.Show()
+            ElseIf DificultadMediaNivel = 10 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+                PictureBoxObjetivo6.Show()
+                PictureBoxObjetivo7.Show()
+                PictureBoxObjetivo8.Show()
+                PictureBoxObjetivo9.Show()
+                PictureBoxObjetivo10.Show()
+            End If
+        ElseIf DificultadElegida = 3 Then
+            If DificultadAltaNivel = 1 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+            ElseIf DificultadAltaNivel = 2 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+            ElseIf DificultadAltaNivel = 3 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+                PictureBoxObjetivo6.Show()
+            ElseIf DificultadAltaNivel = 4 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+                PictureBoxObjetivo6.Show()
+                PictureBoxObjetivo7.Show()
+            ElseIf DificultadAltaNivel = 5 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+                PictureBoxObjetivo6.Show()
+                PictureBoxObjetivo7.Show()
+                PictureBoxObjetivo8.Show()
+            ElseIf DificultadAltaNivel = 6 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+                PictureBoxObjetivo6.Show()
+                PictureBoxObjetivo7.Show()
+                PictureBoxObjetivo8.Show()
+                PictureBoxObjetivo9.Show()
+            ElseIf DificultadAltaNivel = 7 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+                PictureBoxObjetivo6.Show()
+                PictureBoxObjetivo7.Show()
+                PictureBoxObjetivo8.Show()
+                PictureBoxObjetivo9.Show()
+                PictureBoxObjetivo10.Show()
+            ElseIf DificultadAltaNivel = 8 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+                PictureBoxObjetivo6.Show()
+                PictureBoxObjetivo7.Show()
+                PictureBoxObjetivo8.Show()
+                PictureBoxObjetivo9.Show()
+                PictureBoxObjetivo10.Show()
+                PictureBoxObjetivo11.Show()
+            ElseIf DificultadAltaNivel = 9 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+                PictureBoxObjetivo6.Show()
+                PictureBoxObjetivo7.Show()
+                PictureBoxObjetivo8.Show()
+                PictureBoxObjetivo9.Show()
+                PictureBoxObjetivo10.Show()
+                PictureBoxObjetivo11.Show()
+                PictureBoxObjetivo12.Show()
+            ElseIf DificultadAltaNivel = 10 Then
+                PictureBoxObjetivo1.Show()
+                PictureBoxObjetivo2.Show()
+                PictureBoxObjetivo3.Show()
+                PictureBoxObjetivo4.Show()
+                PictureBoxObjetivo5.Show()
+                PictureBoxObjetivo6.Show()
+                PictureBoxObjetivo7.Show()
+                PictureBoxObjetivo8.Show()
+                PictureBoxObjetivo9.Show()
+                PictureBoxObjetivo10.Show()
+                PictureBoxObjetivo11.Show()
+                PictureBoxObjetivo12.Show()
+                PictureBoxObjetivo13.Show()
+            End If
+        End If
     End Sub
 
     Private Sub TimerContador1_Tick(sender As Object, e As EventArgs) Handles TimerContador1.Tick
@@ -686,49 +935,49 @@
         PictureBox2.Location = PictureBoxObjetivo13.Location
         PictureBox2.Show()
     End Sub
-    Private Sub PictureBoxObjetivo_Click(sender As Object, e As EventArgs) Handles PictureBoxObjetivo1.Click, PictureBoxObjetivo2.Click, PictureBoxObjetivo3.Click, PictureBoxObjetivo10.Click, PictureBoxObjetivo4.Click, PictureBoxObjetivo5.Click, PictureBoxObjetivo6.Click, PictureBoxObjetivo7.Click, PictureBoxObjetivo8.Click, PictureBoxObjetivo9.Click
+    Private Sub PictureBoxObjetivo_Click(sender As Object, e As EventArgs) Handles PictureBoxObjetivo1.Click, PictureBoxObjetivo2.Click, PictureBoxObjetivo3.Click, PictureBoxObjetivo10.Click, PictureBoxObjetivo4.Click, PictureBoxObjetivo5.Click, PictureBoxObjetivo6.Click, PictureBoxObjetivo7.Click, PictureBoxObjetivo8.Click, PictureBoxObjetivo9.Click, PictureBoxObjetivo11.Click, PictureBoxObjetivo12.Click, PictureBoxObjetivo13.Click
+        Score += 20
         If DificultadElegida = 1 Then
-            Score += 20
             LabelContador.Text = Score
             If DificultadBajaNivel = 1 Then
                 If LabelContador.Text = 60 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadBajaNivel = 2 Then
                 If LabelContador.Text = 60 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadBajaNivel = 3 Then
                 If LabelContador.Text = 80 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadBajaNivel = 4 Then
                 If LabelContador.Text = 80 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadBajaNivel = 5 Then
                 If LabelContador.Text = 100 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadBajaNivel = 6 Then
                 If LabelContador.Text = 100 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadBajaNivel = 7 Then
                 If LabelContador.Text = 100 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadBajaNivel = 8 Then
                 If LabelContador.Text = 120 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadBajaNivel = 9 Then
                 If LabelContador.Text = 140 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadBajaNivel = 10 Then
                 If LabelContador.Text = 160 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             End If
         ElseIf DificultadElegida = 2 Then
@@ -736,43 +985,43 @@
             LabelContador.Text = Score
             If DificultadMediaNivel = 1 Then
                 If LabelContador.Text = 40 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadMediaNivel = 2 Then
                 If LabelContador.Text = 40 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadMediaNivel = 3 Then
                 If LabelContador.Text = 50 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadMediaNivel = 4 Then
                 If LabelContador.Text = 50 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadMediaNivel = 5 Then
                 If LabelContador.Text = 60 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadMediaNivel = 6 Then
                 If LabelContador.Text = 60 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadMediaNivel = 7 Then
                 If LabelContador.Text = 70 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadMediaNivel = 8 Then
                 If LabelContador.Text = 80 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadMediaNivel = 9 Then
                 If LabelContador.Text = 90 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadMediaNivel = 10 Then
                 If LabelContador.Text = 100 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             End If
         ElseIf DificultadElegida = 3 Then
@@ -780,43 +1029,43 @@
             LabelContador.Text = Score
             If DificultadAltaNivel = 1 Then
                 If LabelContador.Text = 20 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadAltaNivel = 2 Then
                 If LabelContador.Text = 25 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadAltaNivel = 3 Then
                 If LabelContador.Text = 30 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadAltaNivel = 4 Then
                 If LabelContador.Text = 35 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadAltaNivel = 5 Then
                 If LabelContador.Text = 40 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadAltaNivel = 6 Then
                 If LabelContador.Text = 45 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadAltaNivel = 7 Then
                 If LabelContador.Text = 50 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadAltaNivel = 8 Then
                 If LabelContador.Text = 55 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadAltaNivel = 9 Then
                 If LabelContador.Text = 60 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             ElseIf DificultadAltaNivel = 10 Then
                 If LabelContador.Text = 65 Then
-                    TimerObjetivo1.Start()
+                    TimerContador1.Start()
                 End If
             End If
         End If

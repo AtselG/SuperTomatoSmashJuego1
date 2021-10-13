@@ -1,6 +1,6 @@
 ﻿Public Class Info6
     Private Sub Info1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ClosePermission5 = True
+        ClosePermission6 = True
         Info5.Hide()
         Me.Icon = (My.Resources.Icono)
     End Sub

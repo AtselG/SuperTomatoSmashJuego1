@@ -5,6 +5,7 @@
     End Sub
     Private Sub Info2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Label2.Text = "El puntaje que has acumulado es: " & Score
+        Info10.Hide()
         Me.Icon = (My.Resources.Icono)
     End Sub
 End Class
