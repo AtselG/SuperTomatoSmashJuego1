@@ -8,6 +8,15 @@
         Info2.ShowDialog(owner:=FormJugar)
     End Sub
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        ContCont = 0
+        If DificultadElegida = 1 Then
+            DificultadBajaNivel += 1
+        ElseIf DificultadElegida = 2 Then
+            DificultadMediaNivel += 1
+        ElseIf DificultadElegida = 3 Then
+            DificultadAltaNivel += 1
+        End If
+
         If DificultadElegida = 1 Then
             If DificultadBajaNivel = 1 Then
                 FormJugar.PictureBoxObjetivo1.Show()
@@ -244,16 +253,8 @@
                 FormJugar.PictureBoxObjetivo13.Show()
             End If
         End If
-        FormJugar.LabelContador.Text = " 0 "
-        ContCont = 0
-        If DificultadElegida = 1 Then
-            DificultadBajaNivel += 1
-        ElseIf DificultadElegida = 2 Then
-            DificultadMediaNivel += 1
-        ElseIf DificultadElegida = 3 Then
-            DificultadAltaNivel += 1
-        End If
-        Hide()
+        ClosePermission1 = False
+        Close()
     End Sub
     Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
         Dim msgboxresponse As MsgBoxResult
@@ -263,13 +264,13 @@
                                     MsgBoxStyle.Question + MsgBoxStyle.YesNo, Me.Text)
                 If msgboxresponse = MsgBoxResult.Yes Then
                     FormInicio.Show()
-                    FormJugar.Close()
+                    FormJugar.Hide()
                 ElseIf msgboxresponse = MsgBoxResult.No Then
                     e.Cancel = True
                 End If
             End If
         ElseIf ClosePermission1 = False Then
-            e.Cancel = True
+
         End If
     End Sub
 End Class

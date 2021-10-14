@@ -197,13 +197,13 @@ Partial Class FormJugar
         Me.PictureBoxObjetivo11.TabIndex = 18
         Me.PictureBoxObjetivo11.TabStop = False
         '
-        'PictureBoxObjetivo123
+        'PictureBoxObjetivo13
         '
         Me.PictureBoxObjetivo13.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBoxObjetivo13.BackColor = System.Drawing.Color.Transparent
         Me.PictureBoxObjetivo13.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Objetivo1
         Me.PictureBoxObjetivo13.Location = New System.Drawing.Point(942, 623)
-        Me.PictureBoxObjetivo13.Name = "PictureBoxObjetivo123"
+        Me.PictureBoxObjetivo13.Name = "PictureBoxObjetivo13"
         Me.PictureBoxObjetivo13.Size = New System.Drawing.Size(70, 45)
         Me.PictureBoxObjetivo13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBoxObjetivo13.TabIndex = 19
@@ -236,7 +236,6 @@ Partial Class FormJugar
         'LabelContador
         '
         Me.LabelContador.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.LabelContador.AutoSize = True
         Me.LabelContador.BackColor = System.Drawing.SystemColors.WindowText
         Me.LabelContador.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.LabelContador.Font = New System.Drawing.Font("Digital Counter 7", 39.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
@@ -257,6 +256,8 @@ Partial Class FormJugar
         Me.TextBox1.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.TextBox1.BackColor = System.Drawing.SystemColors.WindowFrame
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox1.Cursor = System.Windows.Forms.Cursors.Default
+        Me.TextBox1.Enabled = False
         Me.TextBox1.ForeColor = System.Drawing.Color.Transparent
         Me.TextBox1.Location = New System.Drawing.Point(346, 674)
         Me.TextBox1.Multiline = True
@@ -327,7 +328,6 @@ Partial Class FormJugar
         Me.MaximizeBox = False
         Me.Name = "FormJugar"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.TopMost = True
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBoxObjetivo1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBoxObjetivo2, System.ComponentModel.ISupportInitialize).EndInit()

@@ -26,7 +26,6 @@ Partial Class Info10
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Info10))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
@@ -55,16 +54,6 @@ Partial Class Info10
         Me.Button1.Text = "Volver"
         Me.ToolTip1.SetToolTip(Me.Button1, "Mostrar información anterior")
         Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(400, 230)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(72, 30)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Continuar"
-        Me.ToolTip1.SetToolTip(Me.Button3, "Seguir jugando")
-        Me.Button3.UseVisualStyleBackColor = True
         '
         'TextBox1
         '
@@ -128,7 +117,6 @@ Partial Class Info10
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -137,6 +125,7 @@ Partial Class Info10
         Me.Name = "Info10"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Información sobre el tomate"
+        Me.TopMost = True
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -144,7 +133,6 @@ Partial Class Info10
     End Sub
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button3 As Button
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Button2 As Button
     Friend WithEvents TextBox2 As TextBox

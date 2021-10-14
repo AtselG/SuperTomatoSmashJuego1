@@ -30,8 +30,8 @@ Partial Class Info9
         Me.Button2 = New System.Windows.Forms.Button()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -106,10 +106,6 @@ Partial Class Info9
         Me.ToolTip1.IsBalloon = True
         Me.ToolTip1.ReshowDelay = 500
         '
-        'Timer1
-        '
-        Me.Timer1.Interval = 1000
-        '
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(244, 230)
@@ -119,6 +115,10 @@ Partial Class Info9
         Me.Button1.Text = "Volver"
         Me.ToolTip1.SetToolTip(Me.Button1, "Mostrar información anterior")
         Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Timer1
+        '
+        Me.Timer1.Interval = 1000
         '
         'Info9
         '
@@ -138,6 +138,7 @@ Partial Class Info9
         Me.Name = "Info9"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Información sobre el tomate"
+        Me.TopMost = True
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

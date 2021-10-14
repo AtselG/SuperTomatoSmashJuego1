@@ -85,6 +85,7 @@ Partial Class InfoGanar
         Me.Name = "InfoGanar"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Información sobre el tomate"
+        Me.TopMost = True
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
