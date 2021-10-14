@@ -16,7 +16,17 @@
         If SoundOnOff = True Then
             My.Computer.Audio.Play(My.Resources.Drip_2, AudioPlayMode.Background)
         End If
-        Application.Exit()
+        Result = MessageBox.Show("¿Estás seguro de que quieres volver al menú principal?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk)
+        If Result = DialogResult.Yes Then
+            If SoundOnOff = True Then
+                My.Computer.Audio.Play(My.Resources.Drip_2, AudioPlayMode.Background)
+            End If
+            Application.Exit()
+        ElseIf Result = DialogResult.No Then
+            If SoundOnOff = True Then
+                My.Computer.Audio.Play(My.Resources.Drip_2, AudioPlayMode.Background)
+            End If
+        End If
     End Sub
     Private Sub FormInicio_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         SoundOnOff = True
