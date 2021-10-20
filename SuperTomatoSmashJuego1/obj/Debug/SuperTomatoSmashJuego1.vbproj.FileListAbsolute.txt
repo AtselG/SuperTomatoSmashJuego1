@@ -1,0 +1,59 @@
+C:\Users\Axel Giménez\AppData\Local\Temporary Projects\SuperTomatoSmashJuego1\bin\Debug\SuperTomatoSmashJuego1.exe.config
+C:\Users\Axel Giménez\AppData\Local\Temporary Projects\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.vbprojResolveAssemblyReference.cache
+C:\Users\Axel Giménez\AppData\Local\Temporary Projects\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.FormInicio.resources
+C:\Users\Axel Giménez\AppData\Local\Temporary Projects\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.Resources.resources
+C:\Users\Axel Giménez\AppData\Local\Temporary Projects\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.vbproj.GenerateResource.Cache
+C:\Users\Axel Giménez\AppData\Local\Temporary Projects\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.xml
+C:\Users\Axel Giménez\AppData\Local\Temporary Projects\SuperTomatoSmashJuego1\bin\Debug\SuperTomatoSmashJuego1.exe
+C:\Users\Axel Giménez\AppData\Local\Temporary Projects\SuperTomatoSmashJuego1\bin\Debug\SuperTomatoSmashJuego1.pdb
+C:\Users\Axel Giménez\AppData\Local\Temporary Projects\SuperTomatoSmashJuego1\bin\Debug\SuperTomatoSmashJuego1.xml
+C:\Users\Axel Giménez\AppData\Local\Temporary Projects\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.exe
+C:\Users\Axel Giménez\AppData\Local\Temporary Projects\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.pdb
+C:\Users\Axel Giménez\AppData\Local\Temporary Projects\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.FormPausa.resources
+C:\Users\Axel Giménez\AppData\Local\Temporary Projects\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.FormJuego.resources
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\SuperTomatoSmashJuego1.exe.config
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.exe
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.xml
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.pdb
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\SuperTomatoSmashJuego1.exe
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\SuperTomatoSmashJuego1.pdb
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\SuperTomatoSmashJuego1.xml
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.FormInicio.resources
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.Resources.resources
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.vbproj.GenerateResource.Cache
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.FormJugar.resources
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.FormOpciones.resources
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.Info2.resources
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.Info9.resources
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.Info8.resources
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.Info7.resources
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.Info6.resources
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.Info5.resources
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.Info4.resources
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.Info3.resources
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.Info10.resources
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\SuperTomatoSmashJuego1.exe.manifest
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\SuperTomatoSmashJuego1.application
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.TrustInfo.xml
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.exe.manifest
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.application
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.vbprojResolveAssemblyReference.cache
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.Info1.resources
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.InfoGanar.resources
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\C1.C1Zip.4.5.2.dll
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\C1.Win.4.5.2.xml
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\C1.Win.C1Command.4.5.2.xml
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\C1.Win.C1Input.4.5.2.xml
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\C1.Win.C1Themes.4.5.2.xml
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\C1.Win.C1Themes.Extended.4.5.2.xml
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\C1.Win.C1Win7Pack.4.5.2.xml
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\C1.C1Zip.4.5.2.xml
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.exe.licenses
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\MaterialSkin.dll
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\ComponentFactory.Krypton.Design.dll
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\ComponentFactory.Krypton.Docking.dll
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\ComponentFactory.Krypton.Navigator.dll
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\bin\Debug\ComponentFactory.Krypton.Workspace.dll
+C:\Users\Axel Giménez\Documents\Visual Studio 2015\Projects\SuperTomatoSmashJuego1\SuperTomatoSmashJuego1\obj\Debug\SuperTomatoSmashJuego1.FormDificultades.resources
