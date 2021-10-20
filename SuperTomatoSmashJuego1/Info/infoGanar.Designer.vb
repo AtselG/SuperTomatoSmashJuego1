@@ -36,7 +36,7 @@ Partial Class InfoGanar
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Georgia", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button1.Location = New System.Drawing.Point(177, 149)
+        Me.Button1.Location = New System.Drawing.Point(177, 160)
         Me.Button1.Margin = New System.Windows.Forms.Padding(0)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(130, 28)
@@ -62,11 +62,11 @@ Partial Class InfoGanar
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(29, 121)
+        Me.Label2.Location = New System.Drawing.Point(65, 121)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(426, 28)
+        Me.Label2.Size = New System.Drawing.Size(355, 28)
         Me.Label2.TabIndex = 5
-        Me.Label2.Text = "¡Felicidades, has completado el juego! :D"
+        Me.Label2.Text = "El puntaje que has acumulado es: "
         '
         'InfoGanar
         '

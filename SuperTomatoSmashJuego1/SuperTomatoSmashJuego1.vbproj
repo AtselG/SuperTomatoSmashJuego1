@@ -341,6 +341,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icono.ico" />
+    <None Include="Resources\Fondo3.jpg" />
     <None Include="Resources\Explosion1.gif" />
     <None Include="Resources\Cursor11img.png" />
     <None Include="Resources\Cursor11cur.cur" />
@@ -389,7 +390,6 @@
     <None Include="Resources\LaserSound.mp3" />
     <None Include="Resources\Icono.png" />
     <None Include="Resources\Icono.ico" />
-    <None Include="Resources\Fondo3.jpg" />
     <None Include="Resources\Fondo2.png" />
     <None Include="Resources\Fondo1.png" />
     <None Include="Resources\Exit0.png" />

@@ -113,7 +113,7 @@ Partial Class FormOpciones
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Retro Gaming", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.Desktop
-        Me.Label2.Location = New System.Drawing.Point(239, 162)
+        Me.Label2.Location = New System.Drawing.Point(239, 168)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(546, 27)
         Me.Label2.TabIndex = 17
@@ -127,7 +127,7 @@ Partial Class FormOpciones
         Me.LabelSi.Cursor = System.Windows.Forms.Cursors.Hand
         Me.LabelSi.Font = New System.Drawing.Font("Retro Gaming", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelSi.ForeColor = System.Drawing.SystemColors.Desktop
-        Me.LabelSi.Location = New System.Drawing.Point(495, 200)
+        Me.LabelSi.Location = New System.Drawing.Point(495, 208)
         Me.LabelSi.Name = "LabelSi"
         Me.LabelSi.Size = New System.Drawing.Size(35, 24)
         Me.LabelSi.TabIndex = 18
@@ -141,7 +141,7 @@ Partial Class FormOpciones
         Me.LabelNo.Cursor = System.Windows.Forms.Cursors.Hand
         Me.LabelNo.Font = New System.Drawing.Font("Retro Gaming", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelNo.ForeColor = System.Drawing.SystemColors.Desktop
-        Me.LabelNo.Location = New System.Drawing.Point(491, 200)
+        Me.LabelNo.Location = New System.Drawing.Point(491, 208)
         Me.LabelNo.Name = "LabelNo"
         Me.LabelNo.Size = New System.Drawing.Size(42, 24)
         Me.LabelNo.TabIndex = 19

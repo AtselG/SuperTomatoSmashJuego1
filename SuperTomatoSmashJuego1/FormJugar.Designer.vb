@@ -214,7 +214,7 @@ Partial Class FormJugar
         Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox2.Image = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Explosion1
-        Me.PictureBox2.Location = New System.Drawing.Point(518, 484)
+        Me.PictureBox2.Location = New System.Drawing.Point(688, 688)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(70, 45)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -301,7 +301,7 @@ Partial Class FormJugar
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(129, Byte), Integer))
-        Me.BackgroundImage = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Fondo2
+        Me.BackgroundImage = Global.SuperTomatoSmashJuego1.My.Resources.Resources.Fondo3
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1024, 745)
         Me.Controls.Add(Me.PictureBoxObjetivo11)

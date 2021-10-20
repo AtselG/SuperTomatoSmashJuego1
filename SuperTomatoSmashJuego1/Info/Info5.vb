@@ -15,6 +15,20 @@
         Info6.ShowDialog(owner:=FormJugar)
     End Sub
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        FormJugar.PictureBoxObjetivo1.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo2.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo3.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo4.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo5.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo6.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo7.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo8.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo9.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo10.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo11.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo12.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo13.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+
         ContCont = 0
         If DificultadElegida = 1 Then
             DificultadBajaNivel += 1

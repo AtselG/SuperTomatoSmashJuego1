@@ -1,7 +1,7 @@
 ﻿Public Class FormJugar
     Private Sub FormJugar_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If CursorSiNo = False Then
-            Me.Cursor = New Cursor(Cursor1)
+            Me.Cursor = New Cursor(Cursor8)
         ElseIf CursorSiNo = True Then
             If CursorCont = 1 Then
                 Me.Cursor = New Cursor(Cursor1)
@@ -22,7 +22,6 @@
         End If
         ContCont = 0
         LabelContador.Text = " 0 "
-        TimerObjetivo1.Start()
         PictureBox2.Hide()
         PictureBoxObjetivo1.Hide()
         PictureBoxObjetivo2.Hide()
@@ -37,6 +36,7 @@
         PictureBoxObjetivo11.Hide()
         PictureBoxObjetivo12.Hide()
         PictureBoxObjetivo13.Hide()
+
         If DificultadElegida = 1 Then
             If DificultadBajaNivel = 1 Then
                 PictureBoxObjetivo1.Show()
@@ -372,176 +372,176 @@
             End If
         ElseIf DificultadElegida = 2 Then
             If DificultadMediaNivel = 1 Then
-                PictureBoxObjetivo1.Left -= 20
+                PictureBoxObjetivo1.Left -= 30
                 PictureBoxObjetivo2.Left += 30
-                PictureBoxObjetivo3.Left -= 40
-                PictureBoxObjetivo4.Left += 50
+                PictureBoxObjetivo3.Left -= 30
+                PictureBoxObjetivo4.Left += 30
             ElseIf DificultadMediaNivel = 2 Then
-                PictureBoxObjetivo1.Left -= 20 + 8
-                PictureBoxObjetivo2.Left += 30 + 8
-                PictureBoxObjetivo3.Left -= 40 + 8
-                PictureBoxObjetivo4.Left += 50 + 8
+                PictureBoxObjetivo1.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo2.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo3.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo4.Left += (10 + LabelContador.Text / 2)
             ElseIf DificultadMediaNivel = 3 Then
-                PictureBoxObjetivo1.Left -= 20 + 10
-                PictureBoxObjetivo2.Left += 30 + 10
-                PictureBoxObjetivo3.Left -= 40 + 10
-                PictureBoxObjetivo4.Left += 20 + 10
-                PictureBoxObjetivo5.Left -= 30 + 10
+                PictureBoxObjetivo1.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo2.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo3.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo4.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo5.Left -= (10 + LabelContador.Text / 2)
             ElseIf DificultadMediaNivel = 4 Then
-                PictureBoxObjetivo1.Left -= 20 + 12
-                PictureBoxObjetivo2.Left += 30 + 12
-                PictureBoxObjetivo3.Left -= 40 + 12
-                PictureBoxObjetivo4.Left += 20 + 12
-                PictureBoxObjetivo5.Left -= 30 + 12
+                PictureBoxObjetivo1.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo2.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo3.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo4.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo5.Left -= (10 + LabelContador.Text / 2)
             ElseIf DificultadMediaNivel = 5 Then
-                PictureBoxObjetivo1.Left -= 20 + 14
-                PictureBoxObjetivo2.Left += 30 + 14
-                PictureBoxObjetivo3.Left -= 40 + 14
-                PictureBoxObjetivo4.Left += 20 + 14
-                PictureBoxObjetivo5.Left -= 30 + 14
-                PictureBoxObjetivo6.Left += 40 + 14
+                PictureBoxObjetivo1.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo2.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo3.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo4.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo5.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo6.Left += (10 + LabelContador.Text / 2)
             ElseIf DificultadMediaNivel = 6 Then
-                PictureBoxObjetivo1.Left -= 20 + 16
-                PictureBoxObjetivo2.Left += 30 + 16
-                PictureBoxObjetivo3.Left -= 40 + 16
-                PictureBoxObjetivo4.Left += 20 + 16
-                PictureBoxObjetivo5.Left -= 30 + 16
-                PictureBoxObjetivo6.Left += 40 + 16
+                PictureBoxObjetivo1.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo2.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo3.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo4.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo5.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo6.Left += (10 + LabelContador.Text / 2)
             ElseIf DificultadMediaNivel = 7 Then
-                PictureBoxObjetivo1.Left -= 20 + 18
-                PictureBoxObjetivo2.Left += 30 + 18
-                PictureBoxObjetivo3.Left -= 40 + 18
-                PictureBoxObjetivo4.Left += 20 + 18
-                PictureBoxObjetivo5.Left -= 30 + 18
-                PictureBoxObjetivo6.Left += 40 + 18
-                PictureBoxObjetivo7.Left -= 20 + 18
+                PictureBoxObjetivo1.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo2.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo3.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo4.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo5.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo6.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo7.Left -= (10 + LabelContador.Text / 2)
             ElseIf DificultadMediaNivel = 8 Then
-                PictureBoxObjetivo1.Left -= 20 + 20
-                PictureBoxObjetivo2.Left += 30 + 20
-                PictureBoxObjetivo3.Left -= 40 + 20
-                PictureBoxObjetivo4.Left += 20 + 20
-                PictureBoxObjetivo5.Left -= 30 + 20
-                PictureBoxObjetivo6.Left += 40 + 20
-                PictureBoxObjetivo7.Left -= 20 + 20
-                PictureBoxObjetivo8.Left += 30 + 20
+                PictureBoxObjetivo1.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo2.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo3.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo4.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo5.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo6.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo7.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo8.Left += (10 + LabelContador.Text / 2)
             ElseIf DificultadMediaNivel = 9 Then
-                PictureBoxObjetivo1.Left -= 20 + 22
-                PictureBoxObjetivo2.Left += 30 + 22
-                PictureBoxObjetivo3.Left -= 40 + 22
-                PictureBoxObjetivo4.Left += 20 + 22
-                PictureBoxObjetivo5.Left -= 30 + 22
-                PictureBoxObjetivo6.Left += 40 + 22
-                PictureBoxObjetivo7.Left -= 20 + 22
-                PictureBoxObjetivo8.Left += 30 + 22
-                PictureBoxObjetivo9.Left -= 20 + 22
+                PictureBoxObjetivo1.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo2.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo3.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo4.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo5.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo6.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo7.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo8.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo9.Left -= (10 + LabelContador.Text / 2)
             ElseIf DificultadMediaNivel = 10 Then
-                PictureBoxObjetivo1.Left -= 20 + 24
-                PictureBoxObjetivo2.Left += 30 + 24
-                PictureBoxObjetivo3.Left -= 40 + 24
-                PictureBoxObjetivo4.Left += 20 + 24
-                PictureBoxObjetivo5.Left -= 30 + 24
-                PictureBoxObjetivo6.Left += 40 + 24
-                PictureBoxObjetivo7.Left -= 20 + 24
-                PictureBoxObjetivo8.Left += 30 + 24
-                PictureBoxObjetivo9.Left -= 20 + 24
-                PictureBoxObjetivo10.Left += 30 + 24
+                PictureBoxObjetivo1.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo2.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo3.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo4.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo5.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo6.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo7.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo8.Left += (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo9.Left -= (10 + LabelContador.Text / 2)
+                PictureBoxObjetivo10.Left += (10 + LabelContador.Text / 2)
             End If
         ElseIf DificultadElegida = 3 Then
             If DificultadAltaNivel = 1 Then
-                PictureBoxObjetivo1.Left -= 20 + 10
-                PictureBoxObjetivo2.Left += 30 + 10
-                PictureBoxObjetivo3.Left -= 40 + 10
-                PictureBoxObjetivo4.Left += 20 + 10
+                PictureBoxObjetivo1.Left -= 4 + 10 * 4
+                PictureBoxObjetivo2.Left += 4 + 10 * 4
+                PictureBoxObjetivo3.Left -= 4 + 10 * 4
+                PictureBoxObjetivo4.Left += 4 + 10 * 4
             ElseIf DificultadAltaNivel = 2 Then
-                PictureBoxObjetivo1.Left -= 20 + 20
-                PictureBoxObjetivo2.Left += 30 + 20
-                PictureBoxObjetivo3.Left -= 40 + 20
-                PictureBoxObjetivo4.Left += 20 + 20
-                PictureBoxObjetivo5.Left -= 30 + 20
+                PictureBoxObjetivo1.Left -= 5 + 20 * 2
+                PictureBoxObjetivo2.Left += 5 + 20 * 2
+                PictureBoxObjetivo3.Left -= 5 + 20 * 2
+                PictureBoxObjetivo2.Left += 5 + 20 * 2
+                PictureBoxObjetivo5.Left -= 5 + 20 * 2
             ElseIf DificultadAltaNivel = 3 Then
-                PictureBoxObjetivo1.Left -= 20 + 30
-                PictureBoxObjetivo2.Left += 30 + 30
-                PictureBoxObjetivo3.Left -= 40 + 30
-                PictureBoxObjetivo4.Left += 20 + 30
-                PictureBoxObjetivo5.Left -= 30 + 30
-                PictureBoxObjetivo6.Left += 40 + 30
+                PictureBoxObjetivo1.Left -= 6 + 30 * 2
+                PictureBoxObjetivo2.Left += 6 + 30 * 2
+                PictureBoxObjetivo3.Left -= 6 + 30 * 2
+                PictureBoxObjetivo2.Left += 6 + 30 * 2
+                PictureBoxObjetivo5.Left -= 6 + 30 * 2
+                PictureBoxObjetivo6.Left += 6 + 30 * 2
             ElseIf DificultadAltaNivel = 4 Then
-                PictureBoxObjetivo1.Left -= 20 + 40
-                PictureBoxObjetivo2.Left += 30 + 40
-                PictureBoxObjetivo3.Left -= 40 + 40
-                PictureBoxObjetivo4.Left += 20 + 40
-                PictureBoxObjetivo5.Left -= 30 + 40
-                PictureBoxObjetivo6.Left += 40 + 40
-                PictureBoxObjetivo7.Left -= 20 + 40
+                PictureBoxObjetivo1.Left -= 7 + 40 * 2
+                PictureBoxObjetivo2.Left += 7 + 40 * 2
+                PictureBoxObjetivo3.Left -= 7 + 40 * 2
+                PictureBoxObjetivo4.Left += 7 + 40 * 2
+                PictureBoxObjetivo5.Left -= 7 + 40 * 2
+                PictureBoxObjetivo6.Left += 7 + 40 * 2
+                PictureBoxObjetivo7.Left -= 7 + 40 * 2
             ElseIf DificultadAltaNivel = 5 Then
-                PictureBoxObjetivo1.Left -= 20 + 50
-                PictureBoxObjetivo2.Left += 30 + 50
-                PictureBoxObjetivo3.Left -= 40 + 50
-                PictureBoxObjetivo4.Left += 20 + 50
-                PictureBoxObjetivo5.Left -= 30 + 50
-                PictureBoxObjetivo6.Left += 40 + 50
-                PictureBoxObjetivo7.Left -= 20 + 50
-                PictureBoxObjetivo8.Left += 30 + 50
+                PictureBoxObjetivo1.Left -= 8 + 50 * 2
+                PictureBoxObjetivo2.Left += 8 + 50 * 2
+                PictureBoxObjetivo3.Left -= 8 + 50 * 2
+                PictureBoxObjetivo4.Left += 8 + 50 * 2
+                PictureBoxObjetivo5.Left -= 8 + 50 * 2
+                PictureBoxObjetivo6.Left += 8 + 50 * 2
+                PictureBoxObjetivo7.Left -= 8 + 50 * 2
+                PictureBoxObjetivo8.Left += 8 + 50 * 2
             ElseIf DificultadAltaNivel = 6 Then
-                PictureBoxObjetivo1.Left -= 20 + 60
-                PictureBoxObjetivo2.Left += 30 + 60
-                PictureBoxObjetivo3.Left -= 40 + 60
-                PictureBoxObjetivo4.Left += 20 + 60
-                PictureBoxObjetivo5.Left -= 30 + 60
-                PictureBoxObjetivo6.Left += 40 + 60
-                PictureBoxObjetivo7.Left -= 20 + 60
-                PictureBoxObjetivo8.Left += 30 + 60
-                PictureBoxObjetivo9.Left -= 20 + 60
+                PictureBoxObjetivo1.Left -= 9 + 60 * 2
+                PictureBoxObjetivo2.Left += 9 + 60 * 2
+                PictureBoxObjetivo3.Left -= 9 + 60 * 2
+                PictureBoxObjetivo4.Left += 9 + 60 * 2
+                PictureBoxObjetivo5.Left -= 9 + 60 * 2
+                PictureBoxObjetivo6.Left += 9 + 60 * 2
+                PictureBoxObjetivo7.Left -= 9 + 60 * 2
+                PictureBoxObjetivo8.Left += 9 + 60 * 2
+                PictureBoxObjetivo9.Left -= 9 + 60 * 2
             ElseIf DificultadAltaNivel = 7 Then
-                PictureBoxObjetivo1.Left -= 20 + 70
-                PictureBoxObjetivo2.Left += 30 + 70
-                PictureBoxObjetivo3.Left -= 40 + 70
-                PictureBoxObjetivo4.Left += 20 + 70
-                PictureBoxObjetivo5.Left -= 30 + 70
-                PictureBoxObjetivo6.Left += 40 + 70
-                PictureBoxObjetivo7.Left -= 20 + 70
-                PictureBoxObjetivo8.Left += 30 + 70
-                PictureBoxObjetivo9.Left -= 20 + 70
-                PictureBoxObjetivo10.Left += 40 + 70
+                PictureBoxObjetivo1.Left -= 10 + 70 * 2
+                PictureBoxObjetivo2.Left += 10 + 70 * 2
+                PictureBoxObjetivo3.Left -= 10 + 70 * 2
+                PictureBoxObjetivo4.Left += 10 + 70 * 2
+                PictureBoxObjetivo5.Left -= 10 + 70 * 2
+                PictureBoxObjetivo6.Left += 10 + 70 * 2
+                PictureBoxObjetivo7.Left -= 10 + 70 * 2
+                PictureBoxObjetivo8.Left += 10 + 70 * 2
+                PictureBoxObjetivo9.Left -= 10 + 70 * 2
+                PictureBoxObjetivo10.Left += 10 + 70 * 2
             ElseIf DificultadAltaNivel = 8 Then
-                PictureBoxObjetivo1.Left -= 20 + 80
-                PictureBoxObjetivo2.Left += 30 + 80
-                PictureBoxObjetivo3.Left -= 40 + 80
-                PictureBoxObjetivo4.Left += 20 + 80
-                PictureBoxObjetivo5.Left -= 30 + 80
-                PictureBoxObjetivo6.Left += 40 + 80
-                PictureBoxObjetivo7.Left -= 20 + 80
-                PictureBoxObjetivo8.Left += 30 + 80
-                PictureBoxObjetivo9.Left -= 20 + 80
-                PictureBoxObjetivo10.Left += 40 + 80
-                PictureBoxObjetivo11.Left += 30 + 80
+                PictureBoxObjetivo1.Left -= 11 + 80 * 2
+                PictureBoxObjetivo2.Left += 11 + 80 * 2
+                PictureBoxObjetivo3.Left -= 11 + 80 * 2
+                PictureBoxObjetivo4.Left += 11 + 80 * 2
+                PictureBoxObjetivo5.Left -= 11 + 80 * 2
+                PictureBoxObjetivo6.Left += 11 + 80 * 2
+                PictureBoxObjetivo7.Left -= 11 + 80 * 2
+                PictureBoxObjetivo8.Left += 11 + 80 * 2
+                PictureBoxObjetivo9.Left -= 11 + 80 * 2
+                PictureBoxObjetivo10.Left += 11 + 80 * 2
+                PictureBoxObjetivo11.Left += 11 + 80 * 2
             ElseIf DificultadAltaNivel = 9 Then
-                PictureBoxObjetivo1.Left -= 20 + 90
-                PictureBoxObjetivo2.Left += 30 + 90
-                PictureBoxObjetivo3.Left -= 40 + 90
-                PictureBoxObjetivo4.Left += 20 + 90
-                PictureBoxObjetivo5.Left -= 30 + 90
-                PictureBoxObjetivo6.Left += 40 + 90
-                PictureBoxObjetivo7.Left -= 20 + 90
-                PictureBoxObjetivo8.Left += 30 + 90
-                PictureBoxObjetivo9.Left -= 20 + 90
-                PictureBoxObjetivo10.Left += 40 + 90
-                PictureBoxObjetivo11.Left += 30 + 90
-                PictureBoxObjetivo12.Left -= 50 + 90
+                PictureBoxObjetivo1.Left -= 12 + 90 * 2
+                PictureBoxObjetivo2.Left += 12 + 90 * 2
+                PictureBoxObjetivo3.Left -= 12 + 90 * 2
+                PictureBoxObjetivo4.Left += 12 + 90 * 2
+                PictureBoxObjetivo5.Left -= 12 + 90 * 2
+                PictureBoxObjetivo6.Left += 12 + 90 * 2
+                PictureBoxObjetivo7.Left -= 12 + 90 * 2
+                PictureBoxObjetivo8.Left += 12 + 90 * 2
+                PictureBoxObjetivo9.Left -= 12 + 90 * 2
+                PictureBoxObjetivo10.Left += 12 + 90 * 2
+                PictureBoxObjetivo11.Left += 12 + 90 * 2
+                PictureBoxObjetivo12.Left -= 12 + 90 * 2
             ElseIf DificultadAltaNivel = 10 Then
-                PictureBoxObjetivo1.Left -= 20 + 100
-                PictureBoxObjetivo2.Left += 30 + 100
-                PictureBoxObjetivo3.Left -= 40 + 100
-                PictureBoxObjetivo4.Left += 20 + 100
-                PictureBoxObjetivo5.Left -= 30 + 100
-                PictureBoxObjetivo6.Left += 40 + 100
-                PictureBoxObjetivo7.Left -= 20 + 100
-                PictureBoxObjetivo8.Left += 30 + 100
-                PictureBoxObjetivo9.Left -= 20 + 100
-                PictureBoxObjetivo10.Left += 40 + 100
-                PictureBoxObjetivo11.Left += 30 + 100
-                PictureBoxObjetivo12.Left -= 50 + 100
-                PictureBoxObjetivo13.Left += 30 + 100
+                PictureBoxObjetivo1.Left -= 13 + 100 * 2
+                PictureBoxObjetivo2.Left += 13 + 100 * 2
+                PictureBoxObjetivo3.Left -= 13 + 100 * 2
+                PictureBoxObjetivo4.Left += 13 + 100 * 2
+                PictureBoxObjetivo5.Left -= 13 + 100 * 2
+                PictureBoxObjetivo6.Left += 13 + 100 * 2
+                PictureBoxObjetivo7.Left -= 13 + 100 * 2
+                PictureBoxObjetivo8.Left += 13 + 100 * 2
+                PictureBoxObjetivo9.Left -= 13 + 100 * 2
+                PictureBoxObjetivo10.Left += 13 + 100 * 2
+                PictureBoxObjetivo11.Left += 13 + 100 * 2
+                PictureBoxObjetivo12.Left -= 13 + 100 * 2
+                PictureBoxObjetivo13.Left += 13 + 100 * 2
             End If
         End If
     End Sub
@@ -793,39 +793,39 @@
                     TimerContador1.Start()
                 End If
             ElseIf DificultadMediaNivel = 2 Then
-                If LabelContador.Text = 40 Then
-                    TimerContador1.Start()
-                End If
-            ElseIf DificultadMediaNivel = 3 Then
-                If LabelContador.Text = 50 Then
-                    TimerContador1.Start()
-                End If
-            ElseIf DificultadMediaNivel = 4 Then
-                If LabelContador.Text = 50 Then
-                    TimerContador1.Start()
-                End If
-            ElseIf DificultadMediaNivel = 5 Then
-                If LabelContador.Text = 60 Then
-                    TimerContador1.Start()
-                End If
-            ElseIf DificultadMediaNivel = 6 Then
-                If LabelContador.Text = 60 Then
-                    TimerContador1.Start()
-                End If
-            ElseIf DificultadMediaNivel = 7 Then
-                If LabelContador.Text = 70 Then
-                    TimerContador1.Start()
-                End If
-            ElseIf DificultadMediaNivel = 8 Then
                 If LabelContador.Text = 80 Then
                     TimerContador1.Start()
                 End If
+            ElseIf DificultadMediaNivel = 3 Then
+                If LabelContador.Text = 130 Then
+                    TimerContador1.Start()
+                End If
+            ElseIf DificultadMediaNivel = 4 Then
+                If LabelContador.Text = 180 Then
+                    TimerContador1.Start()
+                End If
+            ElseIf DificultadMediaNivel = 5 Then
+                If LabelContador.Text = 240 Then
+                    TimerContador1.Start()
+                End If
+            ElseIf DificultadMediaNivel = 6 Then
+                If LabelContador.Text = 300 Then
+                    TimerContador1.Start()
+                End If
+            ElseIf DificultadMediaNivel = 7 Then
+                If LabelContador.Text = 370 Then
+                    TimerContador1.Start()
+                End If
+            ElseIf DificultadMediaNivel = 8 Then
+                If LabelContador.Text = 450 Then
+                    TimerContador1.Start()
+                End If
             ElseIf DificultadMediaNivel = 9 Then
-                If LabelContador.Text = 90 Then
+                If LabelContador.Text = 540 Then
                     TimerContador1.Start()
                 End If
             ElseIf DificultadMediaNivel = 10 Then
-                If LabelContador.Text = 100 Then
+                If LabelContador.Text = 640 Then
                     TimerContador1.Start()
                 End If
             End If
@@ -837,39 +837,39 @@
                     TimerContador1.Start()
                 End If
             ElseIf DificultadAltaNivel = 2 Then
-                If LabelContador.Text = 25 Then
-                    TimerContador1.Start()
-                End If
-            ElseIf DificultadAltaNivel = 3 Then
-                If LabelContador.Text = 30 Then
-                    TimerContador1.Start()
-                End If
-            ElseIf DificultadAltaNivel = 4 Then
-                If LabelContador.Text = 35 Then
-                    TimerContador1.Start()
-                End If
-            ElseIf DificultadAltaNivel = 5 Then
-                If LabelContador.Text = 40 Then
-                    TimerContador1.Start()
-                End If
-            ElseIf DificultadAltaNivel = 6 Then
                 If LabelContador.Text = 45 Then
                     TimerContador1.Start()
                 End If
+            ElseIf DificultadAltaNivel = 3 Then
+                If LabelContador.Text = 75 Then
+                    TimerContador1.Start()
+                End If
+            ElseIf DificultadAltaNivel = 4 Then
+                If LabelContador.Text = 110 Then
+                    TimerContador1.Start()
+                End If
+            ElseIf DificultadAltaNivel = 5 Then
+                If LabelContador.Text = 150 Then
+                    TimerContador1.Start()
+                End If
+            ElseIf DificultadAltaNivel = 6 Then
+                If LabelContador.Text = 195 Then
+                    TimerContador1.Start()
+                End If
             ElseIf DificultadAltaNivel = 7 Then
-                If LabelContador.Text = 50 Then
+                If LabelContador.Text = 245 Then
                     TimerContador1.Start()
                 End If
             ElseIf DificultadAltaNivel = 8 Then
-                If LabelContador.Text = 55 Then
+                If LabelContador.Text = 300 Then
                     TimerContador1.Start()
                 End If
             ElseIf DificultadAltaNivel = 9 Then
-                If LabelContador.Text = 60 Then
+                If LabelContador.Text = 360 Then
                     TimerContador1.Start()
                 End If
             ElseIf DificultadAltaNivel = 10 Then
-                If LabelContador.Text = 65 Then
+                If LabelContador.Text = 425 Then
                     TimerContador1.Start()
                 End If
             End If

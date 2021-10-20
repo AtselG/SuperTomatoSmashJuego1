@@ -30,7 +30,6 @@ Partial Class Info1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -105,10 +104,6 @@ Partial Class Info1
         Me.ToolTip1.IsBalloon = True
         Me.ToolTip1.ReshowDelay = 500
         '
-        'Timer1
-        '
-        Me.Timer1.Interval = 1000
-        '
         'Info1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -138,5 +133,4 @@ Partial Class Info1
     Friend WithEvents Button2 As Button
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents ToolTip1 As ToolTip
-    Friend WithEvents Timer1 As Timer
 End Class

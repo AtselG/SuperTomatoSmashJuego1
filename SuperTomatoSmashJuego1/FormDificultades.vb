@@ -8,6 +8,7 @@ Public Class FormDificultades
     End Sub
 
     Private Sub MaterialRaisedButton1_Click(sender As Object, e As EventArgs) Handles MaterialRaisedButton1.Click
+        FormJugar.TimerObjetivo1.Start()
         DificultadElegida = 1
         DificultadBajaNivel = 1
         DificultadMediaNivel = 0
@@ -15,6 +16,22 @@ Public Class FormDificultades
         Score = 0
         FormJugar.LabelContador.Text = " 0 "
         ContInfo = 0
+
+        FormJugar.PictureBox2.Hide()
+        FormJugar.PictureBoxObjetivo1.Hide()
+        FormJugar.PictureBoxObjetivo2.Hide()
+        FormJugar.PictureBoxObjetivo3.Hide()
+        FormJugar.PictureBoxObjetivo4.Hide()
+        FormJugar.PictureBoxObjetivo5.Hide()
+        FormJugar.PictureBoxObjetivo6.Hide()
+        FormJugar.PictureBoxObjetivo7.Hide()
+        FormJugar.PictureBoxObjetivo8.Hide()
+        FormJugar.PictureBoxObjetivo9.Hide()
+        FormJugar.PictureBoxObjetivo10.Hide()
+        FormJugar.PictureBoxObjetivo11.Hide()
+        FormJugar.PictureBoxObjetivo12.Hide()
+        FormJugar.PictureBoxObjetivo13.Hide()
+
         If DificultadElegida = 1 Then
             If DificultadBajaNivel = 1 Then
                 FormJugar.PictureBoxObjetivo1.Show()
@@ -252,11 +269,25 @@ Public Class FormDificultades
             End If
         End If
         FormJugar.Show()
+        FormJugar.PictureBoxObjetivo1.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo2.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo3.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo4.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo5.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo6.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo7.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo8.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo9.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo10.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo11.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo12.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo13.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
         FormInicio.Hide()
         Close()
     End Sub
 
     Private Sub MaterialRaisedButton2_Click(sender As Object, e As EventArgs) Handles MaterialRaisedButton2.Click
+        FormJugar.TimerObjetivo1.Start()
         DificultadElegida = 2
         DificultadBajaNivel = 0
         DificultadMediaNivel = 1
@@ -264,6 +295,22 @@ Public Class FormDificultades
         Score = 0
         FormJugar.LabelContador.Text = " 0 "
         ContInfo = 0
+
+        FormJugar.PictureBox2.Hide()
+        FormJugar.PictureBoxObjetivo1.Hide()
+        FormJugar.PictureBoxObjetivo2.Hide()
+        FormJugar.PictureBoxObjetivo3.Hide()
+        FormJugar.PictureBoxObjetivo4.Hide()
+        FormJugar.PictureBoxObjetivo5.Hide()
+        FormJugar.PictureBoxObjetivo6.Hide()
+        FormJugar.PictureBoxObjetivo7.Hide()
+        FormJugar.PictureBoxObjetivo8.Hide()
+        FormJugar.PictureBoxObjetivo9.Hide()
+        FormJugar.PictureBoxObjetivo10.Hide()
+        FormJugar.PictureBoxObjetivo11.Hide()
+        FormJugar.PictureBoxObjetivo12.Hide()
+        FormJugar.PictureBoxObjetivo13.Hide()
+
         If DificultadElegida = 1 Then
             If DificultadBajaNivel = 1 Then
                 FormJugar.PictureBoxObjetivo1.Show()
@@ -501,11 +548,25 @@ Public Class FormDificultades
             End If
         End If
         FormJugar.Show()
+        FormJugar.PictureBoxObjetivo1.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo2.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo3.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo4.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo5.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo6.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo7.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo8.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo9.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo10.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo11.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo12.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo13.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
         FormInicio.Hide()
         Close()
     End Sub
 
     Private Sub MaterialRaisedButton3_Click(sender As Object, e As EventArgs) Handles MaterialRaisedButton3.Click
+        FormJugar.TimerObjetivo1.Start()
         DificultadElegida = 3
         DificultadBajaNivel = 0
         DificultadMediaNivel = 0
@@ -513,6 +574,22 @@ Public Class FormDificultades
         Score = 0
         FormJugar.LabelContador.Text = " 0 "
         ContInfo = 0
+
+        FormJugar.PictureBox2.Hide()
+        FormJugar.PictureBoxObjetivo1.Hide()
+        FormJugar.PictureBoxObjetivo2.Hide()
+        FormJugar.PictureBoxObjetivo3.Hide()
+        FormJugar.PictureBoxObjetivo4.Hide()
+        FormJugar.PictureBoxObjetivo5.Hide()
+        FormJugar.PictureBoxObjetivo6.Hide()
+        FormJugar.PictureBoxObjetivo7.Hide()
+        FormJugar.PictureBoxObjetivo8.Hide()
+        FormJugar.PictureBoxObjetivo9.Hide()
+        FormJugar.PictureBoxObjetivo10.Hide()
+        FormJugar.PictureBoxObjetivo11.Hide()
+        FormJugar.PictureBoxObjetivo12.Hide()
+        FormJugar.PictureBoxObjetivo13.Hide()
+
         If DificultadElegida = 1 Then
             If DificultadBajaNivel = 1 Then
                 FormJugar.PictureBoxObjetivo1.Show()
@@ -750,6 +827,19 @@ Public Class FormDificultades
             End If
         End If
         FormJugar.Show()
+        FormJugar.PictureBoxObjetivo1.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo2.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo3.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo4.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo5.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo6.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo7.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo8.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo9.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo10.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo11.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo12.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
+        FormJugar.PictureBoxObjetivo13.Location = New Point(Int((1024 * Rnd()) + 0), Int((623 * Rnd()) + 0))
         FormInicio.Hide()
         Close()
     End Sub

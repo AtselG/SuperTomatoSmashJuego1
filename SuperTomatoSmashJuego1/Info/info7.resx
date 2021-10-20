@@ -123,7 +123,4 @@
   <data name="TextBox1.Text" xml:space="preserve">
     <value>Los tomates son nutritivos. Contienen grandes cantidades de vitamina C y folato. El tomate es asimismo la fuente alimentaria más importante de un pigmento rojo llamado licopeno, que tiene propiedades antioxidantes y puede ser anticancerígeno.</value>
   </data>
-  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>116, 17</value>
-  </metadata>
 </root>

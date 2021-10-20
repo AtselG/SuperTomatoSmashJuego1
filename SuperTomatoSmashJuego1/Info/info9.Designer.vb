@@ -31,7 +31,6 @@ Partial Class Info9
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -116,10 +115,6 @@ Partial Class Info9
         Me.ToolTip1.SetToolTip(Me.Button1, "Mostrar información anterior")
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Timer1
-        '
-        Me.Timer1.Interval = 1000
-        '
         'Info9
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -150,6 +145,5 @@ Partial Class Info9
     Friend WithEvents Button2 As Button
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents ToolTip1 As ToolTip
-    Friend WithEvents Timer1 As Timer
     Friend WithEvents Button1 As Button
 End Class
